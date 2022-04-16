@@ -1,0 +1,17 @@
+
+//3:8 decoder
+module decoder3_8(i, d, enable);
+	input logic [2:0] i;
+	output logic [7:0] d;
+	input logic enable;
+	
+	and d0 (d[0], ~i[2], ~i[1], ~i[0], enable);
+	and d1 (d[1], ~i[2], ~i[1], i[0], enable);
+	and d2 (d[2], ~i[2], i[1], ~i[0], enable);
+	and d3 (d[3], ~i[2], i[1], i[0], enable);
+	and d4 (d[4], i[2], ~i[1], ~i[0], enable);
+	and d5 (d[5], i[2], ~i[1], i[0], enable);
+	and d6 (d[6], i[2], i[1], ~i[0], enable);
+	and d7 (d[7], i[2], i[1], i[0], enable);
+	
+endmodule
