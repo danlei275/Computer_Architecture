@@ -1,0 +1,6026 @@
+|alu
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+A[4] => A[4].IN1
+A[5] => A[5].IN1
+A[6] => A[6].IN1
+A[7] => A[7].IN1
+A[8] => A[8].IN1
+A[9] => A[9].IN1
+A[10] => A[10].IN1
+A[11] => A[11].IN1
+A[12] => A[12].IN1
+A[13] => A[13].IN1
+A[14] => A[14].IN1
+A[15] => A[15].IN1
+A[16] => A[16].IN1
+A[17] => A[17].IN1
+A[18] => A[18].IN1
+A[19] => A[19].IN1
+A[20] => A[20].IN1
+A[21] => A[21].IN1
+A[22] => A[22].IN1
+A[23] => A[23].IN1
+A[24] => A[24].IN1
+A[25] => A[25].IN1
+A[26] => A[26].IN1
+A[27] => A[27].IN1
+A[28] => A[28].IN1
+A[29] => A[29].IN1
+A[30] => A[30].IN1
+A[31] => A[31].IN1
+A[32] => A[32].IN1
+A[33] => A[33].IN1
+A[34] => A[34].IN1
+A[35] => A[35].IN1
+A[36] => A[36].IN1
+A[37] => A[37].IN1
+A[38] => A[38].IN1
+A[39] => A[39].IN1
+A[40] => A[40].IN1
+A[41] => A[41].IN1
+A[42] => A[42].IN1
+A[43] => A[43].IN1
+A[44] => A[44].IN1
+A[45] => A[45].IN1
+A[46] => A[46].IN1
+A[47] => A[47].IN1
+A[48] => A[48].IN1
+A[49] => A[49].IN1
+A[50] => A[50].IN1
+A[51] => A[51].IN1
+A[52] => A[52].IN1
+A[53] => A[53].IN1
+A[54] => A[54].IN1
+A[55] => A[55].IN1
+A[56] => A[56].IN1
+A[57] => A[57].IN1
+A[58] => A[58].IN1
+A[59] => A[59].IN1
+A[60] => A[60].IN1
+A[61] => A[61].IN1
+A[62] => A[62].IN1
+A[63] => A[63].IN1
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+B[4] => B[4].IN1
+B[5] => B[5].IN1
+B[6] => B[6].IN1
+B[7] => B[7].IN1
+B[8] => B[8].IN1
+B[9] => B[9].IN1
+B[10] => B[10].IN1
+B[11] => B[11].IN1
+B[12] => B[12].IN1
+B[13] => B[13].IN1
+B[14] => B[14].IN1
+B[15] => B[15].IN1
+B[16] => B[16].IN1
+B[17] => B[17].IN1
+B[18] => B[18].IN1
+B[19] => B[19].IN1
+B[20] => B[20].IN1
+B[21] => B[21].IN1
+B[22] => B[22].IN1
+B[23] => B[23].IN1
+B[24] => B[24].IN1
+B[25] => B[25].IN1
+B[26] => B[26].IN1
+B[27] => B[27].IN1
+B[28] => B[28].IN1
+B[29] => B[29].IN1
+B[30] => B[30].IN1
+B[31] => B[31].IN1
+B[32] => B[32].IN1
+B[33] => B[33].IN1
+B[34] => B[34].IN1
+B[35] => B[35].IN1
+B[36] => B[36].IN1
+B[37] => B[37].IN1
+B[38] => B[38].IN1
+B[39] => B[39].IN1
+B[40] => B[40].IN1
+B[41] => B[41].IN1
+B[42] => B[42].IN1
+B[43] => B[43].IN1
+B[44] => B[44].IN1
+B[45] => B[45].IN1
+B[46] => B[46].IN1
+B[47] => B[47].IN1
+B[48] => B[48].IN1
+B[49] => B[49].IN1
+B[50] => B[50].IN1
+B[51] => B[51].IN1
+B[52] => B[52].IN1
+B[53] => B[53].IN1
+B[54] => B[54].IN1
+B[55] => B[55].IN1
+B[56] => B[56].IN1
+B[57] => B[57].IN1
+B[58] => B[58].IN1
+B[59] => B[59].IN1
+B[60] => B[60].IN1
+B[61] => B[61].IN1
+B[62] => B[62].IN1
+B[63] => B[63].IN1
+cntrl[0] => cntrl[0].IN65
+cntrl[1] => cntrl[1].IN64
+cntrl[2] => cntrl[2].IN64
+result[0] <= ALU_1b:b0.r
+result[1] <= ALU_1b:ALU_bits[1].b_i.r
+result[2] <= ALU_1b:ALU_bits[2].b_i.r
+result[3] <= ALU_1b:ALU_bits[3].b_i.r
+result[4] <= ALU_1b:ALU_bits[4].b_i.r
+result[5] <= ALU_1b:ALU_bits[5].b_i.r
+result[6] <= ALU_1b:ALU_bits[6].b_i.r
+result[7] <= ALU_1b:ALU_bits[7].b_i.r
+result[8] <= ALU_1b:ALU_bits[8].b_i.r
+result[9] <= ALU_1b:ALU_bits[9].b_i.r
+result[10] <= ALU_1b:ALU_bits[10].b_i.r
+result[11] <= ALU_1b:ALU_bits[11].b_i.r
+result[12] <= ALU_1b:ALU_bits[12].b_i.r
+result[13] <= ALU_1b:ALU_bits[13].b_i.r
+result[14] <= ALU_1b:ALU_bits[14].b_i.r
+result[15] <= ALU_1b:ALU_bits[15].b_i.r
+result[16] <= ALU_1b:ALU_bits[16].b_i.r
+result[17] <= ALU_1b:ALU_bits[17].b_i.r
+result[18] <= ALU_1b:ALU_bits[18].b_i.r
+result[19] <= ALU_1b:ALU_bits[19].b_i.r
+result[20] <= ALU_1b:ALU_bits[20].b_i.r
+result[21] <= ALU_1b:ALU_bits[21].b_i.r
+result[22] <= ALU_1b:ALU_bits[22].b_i.r
+result[23] <= ALU_1b:ALU_bits[23].b_i.r
+result[24] <= ALU_1b:ALU_bits[24].b_i.r
+result[25] <= ALU_1b:ALU_bits[25].b_i.r
+result[26] <= ALU_1b:ALU_bits[26].b_i.r
+result[27] <= ALU_1b:ALU_bits[27].b_i.r
+result[28] <= ALU_1b:ALU_bits[28].b_i.r
+result[29] <= ALU_1b:ALU_bits[29].b_i.r
+result[30] <= ALU_1b:ALU_bits[30].b_i.r
+result[31] <= ALU_1b:ALU_bits[31].b_i.r
+result[32] <= ALU_1b:ALU_bits[32].b_i.r
+result[33] <= ALU_1b:ALU_bits[33].b_i.r
+result[34] <= ALU_1b:ALU_bits[34].b_i.r
+result[35] <= ALU_1b:ALU_bits[35].b_i.r
+result[36] <= ALU_1b:ALU_bits[36].b_i.r
+result[37] <= ALU_1b:ALU_bits[37].b_i.r
+result[38] <= ALU_1b:ALU_bits[38].b_i.r
+result[39] <= ALU_1b:ALU_bits[39].b_i.r
+result[40] <= ALU_1b:ALU_bits[40].b_i.r
+result[41] <= ALU_1b:ALU_bits[41].b_i.r
+result[42] <= ALU_1b:ALU_bits[42].b_i.r
+result[43] <= ALU_1b:ALU_bits[43].b_i.r
+result[44] <= ALU_1b:ALU_bits[44].b_i.r
+result[45] <= ALU_1b:ALU_bits[45].b_i.r
+result[46] <= ALU_1b:ALU_bits[46].b_i.r
+result[47] <= ALU_1b:ALU_bits[47].b_i.r
+result[48] <= ALU_1b:ALU_bits[48].b_i.r
+result[49] <= ALU_1b:ALU_bits[49].b_i.r
+result[50] <= ALU_1b:ALU_bits[50].b_i.r
+result[51] <= ALU_1b:ALU_bits[51].b_i.r
+result[52] <= ALU_1b:ALU_bits[52].b_i.r
+result[53] <= ALU_1b:ALU_bits[53].b_i.r
+result[54] <= ALU_1b:ALU_bits[54].b_i.r
+result[55] <= ALU_1b:ALU_bits[55].b_i.r
+result[56] <= ALU_1b:ALU_bits[56].b_i.r
+result[57] <= ALU_1b:ALU_bits[57].b_i.r
+result[58] <= ALU_1b:ALU_bits[58].b_i.r
+result[59] <= ALU_1b:ALU_bits[59].b_i.r
+result[60] <= ALU_1b:ALU_bits[60].b_i.r
+result[61] <= ALU_1b:ALU_bits[61].b_i.r
+result[62] <= ALU_1b:ALU_bits[62].b_i.r
+result[63] <= ALU_1b:b_63.r
+negative <= ALU_1b:b_63.r
+zero <= out.DB_MAX_OUTPUT_PORT_TYPE
+overflow <= overflow0.DB_MAX_OUTPUT_PORT_TYPE
+carry_out <= ALU_1b:b_63.cOut
+
+
+|alu|ALU_1b:b0
+a => fullAdder:ad.a
+a => and0.IN0
+a => or0.IN0
+a => xor0.IN0
+b => b.IN1
+sel[0] => sel[0].IN1
+sel[1] => mux8_1:control.sel[1]
+sel[2] => mux8_1:control.sel[2]
+r <= mux8_1:control.out
+cOut <= fullAdder:ad.cOut
+cIn => fullAdder:ad.cIn
+
+
+|alu|ALU_1b:b0|mux2_1:sub0
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:b0|fullAdder:ad
+a => sum.IN0
+a => and0.IN0
+a => and1.IN0
+b => sum.IN1
+b => and1.IN1
+b => and2.IN0
+cIn => sum.IN2
+cIn => and0.IN1
+cIn => and2.IN1
+s <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cOut <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:b0|mux8_1:control
+out <= mux2_1:mux2.out
+d[0] => d[0].IN1
+d[1] => d[1].IN1
+d[2] => d[2].IN1
+d[3] => d[3].IN1
+d[4] => d[4].IN1
+d[5] => d[5].IN1
+d[6] => d[6].IN1
+d[7] => d[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => mux2_1:mux2.s0
+
+
+|alu|ALU_1b:b0|mux8_1:control|mux4_1:mux0
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:b0|mux8_1:control|mux4_1:mux1
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:b0|mux8_1:control|mux2_1:mux2
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[1].b_i
+a => fullAdder:ad.a
+a => and0.IN0
+a => or0.IN0
+a => xor0.IN0
+b => b.IN1
+sel[0] => sel[0].IN1
+sel[1] => mux8_1:control.sel[1]
+sel[2] => mux8_1:control.sel[2]
+r <= mux8_1:control.out
+cOut <= fullAdder:ad.cOut
+cIn => fullAdder:ad.cIn
+
+
+|alu|ALU_1b:ALU_bits[1].b_i|mux2_1:sub0
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[1].b_i|fullAdder:ad
+a => sum.IN0
+a => and0.IN0
+a => and1.IN0
+b => sum.IN1
+b => and1.IN1
+b => and2.IN0
+cIn => sum.IN2
+cIn => and0.IN1
+cIn => and2.IN1
+s <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cOut <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[1].b_i|mux8_1:control
+out <= mux2_1:mux2.out
+d[0] => d[0].IN1
+d[1] => d[1].IN1
+d[2] => d[2].IN1
+d[3] => d[3].IN1
+d[4] => d[4].IN1
+d[5] => d[5].IN1
+d[6] => d[6].IN1
+d[7] => d[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => mux2_1:mux2.s0
+
+
+|alu|ALU_1b:ALU_bits[1].b_i|mux8_1:control|mux4_1:mux0
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[1].b_i|mux8_1:control|mux4_1:mux1
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[1].b_i|mux8_1:control|mux2_1:mux2
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[2].b_i
+a => fullAdder:ad.a
+a => and0.IN0
+a => or0.IN0
+a => xor0.IN0
+b => b.IN1
+sel[0] => sel[0].IN1
+sel[1] => mux8_1:control.sel[1]
+sel[2] => mux8_1:control.sel[2]
+r <= mux8_1:control.out
+cOut <= fullAdder:ad.cOut
+cIn => fullAdder:ad.cIn
+
+
+|alu|ALU_1b:ALU_bits[2].b_i|mux2_1:sub0
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[2].b_i|fullAdder:ad
+a => sum.IN0
+a => and0.IN0
+a => and1.IN0
+b => sum.IN1
+b => and1.IN1
+b => and2.IN0
+cIn => sum.IN2
+cIn => and0.IN1
+cIn => and2.IN1
+s <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cOut <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[2].b_i|mux8_1:control
+out <= mux2_1:mux2.out
+d[0] => d[0].IN1
+d[1] => d[1].IN1
+d[2] => d[2].IN1
+d[3] => d[3].IN1
+d[4] => d[4].IN1
+d[5] => d[5].IN1
+d[6] => d[6].IN1
+d[7] => d[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => mux2_1:mux2.s0
+
+
+|alu|ALU_1b:ALU_bits[2].b_i|mux8_1:control|mux4_1:mux0
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[2].b_i|mux8_1:control|mux4_1:mux1
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[2].b_i|mux8_1:control|mux2_1:mux2
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[3].b_i
+a => fullAdder:ad.a
+a => and0.IN0
+a => or0.IN0
+a => xor0.IN0
+b => b.IN1
+sel[0] => sel[0].IN1
+sel[1] => mux8_1:control.sel[1]
+sel[2] => mux8_1:control.sel[2]
+r <= mux8_1:control.out
+cOut <= fullAdder:ad.cOut
+cIn => fullAdder:ad.cIn
+
+
+|alu|ALU_1b:ALU_bits[3].b_i|mux2_1:sub0
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[3].b_i|fullAdder:ad
+a => sum.IN0
+a => and0.IN0
+a => and1.IN0
+b => sum.IN1
+b => and1.IN1
+b => and2.IN0
+cIn => sum.IN2
+cIn => and0.IN1
+cIn => and2.IN1
+s <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cOut <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[3].b_i|mux8_1:control
+out <= mux2_1:mux2.out
+d[0] => d[0].IN1
+d[1] => d[1].IN1
+d[2] => d[2].IN1
+d[3] => d[3].IN1
+d[4] => d[4].IN1
+d[5] => d[5].IN1
+d[6] => d[6].IN1
+d[7] => d[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => mux2_1:mux2.s0
+
+
+|alu|ALU_1b:ALU_bits[3].b_i|mux8_1:control|mux4_1:mux0
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[3].b_i|mux8_1:control|mux4_1:mux1
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[3].b_i|mux8_1:control|mux2_1:mux2
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[4].b_i
+a => fullAdder:ad.a
+a => and0.IN0
+a => or0.IN0
+a => xor0.IN0
+b => b.IN1
+sel[0] => sel[0].IN1
+sel[1] => mux8_1:control.sel[1]
+sel[2] => mux8_1:control.sel[2]
+r <= mux8_1:control.out
+cOut <= fullAdder:ad.cOut
+cIn => fullAdder:ad.cIn
+
+
+|alu|ALU_1b:ALU_bits[4].b_i|mux2_1:sub0
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[4].b_i|fullAdder:ad
+a => sum.IN0
+a => and0.IN0
+a => and1.IN0
+b => sum.IN1
+b => and1.IN1
+b => and2.IN0
+cIn => sum.IN2
+cIn => and0.IN1
+cIn => and2.IN1
+s <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cOut <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[4].b_i|mux8_1:control
+out <= mux2_1:mux2.out
+d[0] => d[0].IN1
+d[1] => d[1].IN1
+d[2] => d[2].IN1
+d[3] => d[3].IN1
+d[4] => d[4].IN1
+d[5] => d[5].IN1
+d[6] => d[6].IN1
+d[7] => d[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => mux2_1:mux2.s0
+
+
+|alu|ALU_1b:ALU_bits[4].b_i|mux8_1:control|mux4_1:mux0
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[4].b_i|mux8_1:control|mux4_1:mux1
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[4].b_i|mux8_1:control|mux2_1:mux2
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[5].b_i
+a => fullAdder:ad.a
+a => and0.IN0
+a => or0.IN0
+a => xor0.IN0
+b => b.IN1
+sel[0] => sel[0].IN1
+sel[1] => mux8_1:control.sel[1]
+sel[2] => mux8_1:control.sel[2]
+r <= mux8_1:control.out
+cOut <= fullAdder:ad.cOut
+cIn => fullAdder:ad.cIn
+
+
+|alu|ALU_1b:ALU_bits[5].b_i|mux2_1:sub0
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[5].b_i|fullAdder:ad
+a => sum.IN0
+a => and0.IN0
+a => and1.IN0
+b => sum.IN1
+b => and1.IN1
+b => and2.IN0
+cIn => sum.IN2
+cIn => and0.IN1
+cIn => and2.IN1
+s <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cOut <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[5].b_i|mux8_1:control
+out <= mux2_1:mux2.out
+d[0] => d[0].IN1
+d[1] => d[1].IN1
+d[2] => d[2].IN1
+d[3] => d[3].IN1
+d[4] => d[4].IN1
+d[5] => d[5].IN1
+d[6] => d[6].IN1
+d[7] => d[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => mux2_1:mux2.s0
+
+
+|alu|ALU_1b:ALU_bits[5].b_i|mux8_1:control|mux4_1:mux0
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[5].b_i|mux8_1:control|mux4_1:mux1
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[5].b_i|mux8_1:control|mux2_1:mux2
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[6].b_i
+a => fullAdder:ad.a
+a => and0.IN0
+a => or0.IN0
+a => xor0.IN0
+b => b.IN1
+sel[0] => sel[0].IN1
+sel[1] => mux8_1:control.sel[1]
+sel[2] => mux8_1:control.sel[2]
+r <= mux8_1:control.out
+cOut <= fullAdder:ad.cOut
+cIn => fullAdder:ad.cIn
+
+
+|alu|ALU_1b:ALU_bits[6].b_i|mux2_1:sub0
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[6].b_i|fullAdder:ad
+a => sum.IN0
+a => and0.IN0
+a => and1.IN0
+b => sum.IN1
+b => and1.IN1
+b => and2.IN0
+cIn => sum.IN2
+cIn => and0.IN1
+cIn => and2.IN1
+s <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cOut <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[6].b_i|mux8_1:control
+out <= mux2_1:mux2.out
+d[0] => d[0].IN1
+d[1] => d[1].IN1
+d[2] => d[2].IN1
+d[3] => d[3].IN1
+d[4] => d[4].IN1
+d[5] => d[5].IN1
+d[6] => d[6].IN1
+d[7] => d[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => mux2_1:mux2.s0
+
+
+|alu|ALU_1b:ALU_bits[6].b_i|mux8_1:control|mux4_1:mux0
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[6].b_i|mux8_1:control|mux4_1:mux1
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[6].b_i|mux8_1:control|mux2_1:mux2
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[7].b_i
+a => fullAdder:ad.a
+a => and0.IN0
+a => or0.IN0
+a => xor0.IN0
+b => b.IN1
+sel[0] => sel[0].IN1
+sel[1] => mux8_1:control.sel[1]
+sel[2] => mux8_1:control.sel[2]
+r <= mux8_1:control.out
+cOut <= fullAdder:ad.cOut
+cIn => fullAdder:ad.cIn
+
+
+|alu|ALU_1b:ALU_bits[7].b_i|mux2_1:sub0
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[7].b_i|fullAdder:ad
+a => sum.IN0
+a => and0.IN0
+a => and1.IN0
+b => sum.IN1
+b => and1.IN1
+b => and2.IN0
+cIn => sum.IN2
+cIn => and0.IN1
+cIn => and2.IN1
+s <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cOut <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[7].b_i|mux8_1:control
+out <= mux2_1:mux2.out
+d[0] => d[0].IN1
+d[1] => d[1].IN1
+d[2] => d[2].IN1
+d[3] => d[3].IN1
+d[4] => d[4].IN1
+d[5] => d[5].IN1
+d[6] => d[6].IN1
+d[7] => d[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => mux2_1:mux2.s0
+
+
+|alu|ALU_1b:ALU_bits[7].b_i|mux8_1:control|mux4_1:mux0
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[7].b_i|mux8_1:control|mux4_1:mux1
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[7].b_i|mux8_1:control|mux2_1:mux2
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[8].b_i
+a => fullAdder:ad.a
+a => and0.IN0
+a => or0.IN0
+a => xor0.IN0
+b => b.IN1
+sel[0] => sel[0].IN1
+sel[1] => mux8_1:control.sel[1]
+sel[2] => mux8_1:control.sel[2]
+r <= mux8_1:control.out
+cOut <= fullAdder:ad.cOut
+cIn => fullAdder:ad.cIn
+
+
+|alu|ALU_1b:ALU_bits[8].b_i|mux2_1:sub0
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[8].b_i|fullAdder:ad
+a => sum.IN0
+a => and0.IN0
+a => and1.IN0
+b => sum.IN1
+b => and1.IN1
+b => and2.IN0
+cIn => sum.IN2
+cIn => and0.IN1
+cIn => and2.IN1
+s <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cOut <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[8].b_i|mux8_1:control
+out <= mux2_1:mux2.out
+d[0] => d[0].IN1
+d[1] => d[1].IN1
+d[2] => d[2].IN1
+d[3] => d[3].IN1
+d[4] => d[4].IN1
+d[5] => d[5].IN1
+d[6] => d[6].IN1
+d[7] => d[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => mux2_1:mux2.s0
+
+
+|alu|ALU_1b:ALU_bits[8].b_i|mux8_1:control|mux4_1:mux0
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[8].b_i|mux8_1:control|mux4_1:mux1
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[8].b_i|mux8_1:control|mux2_1:mux2
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[9].b_i
+a => fullAdder:ad.a
+a => and0.IN0
+a => or0.IN0
+a => xor0.IN0
+b => b.IN1
+sel[0] => sel[0].IN1
+sel[1] => mux8_1:control.sel[1]
+sel[2] => mux8_1:control.sel[2]
+r <= mux8_1:control.out
+cOut <= fullAdder:ad.cOut
+cIn => fullAdder:ad.cIn
+
+
+|alu|ALU_1b:ALU_bits[9].b_i|mux2_1:sub0
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[9].b_i|fullAdder:ad
+a => sum.IN0
+a => and0.IN0
+a => and1.IN0
+b => sum.IN1
+b => and1.IN1
+b => and2.IN0
+cIn => sum.IN2
+cIn => and0.IN1
+cIn => and2.IN1
+s <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cOut <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[9].b_i|mux8_1:control
+out <= mux2_1:mux2.out
+d[0] => d[0].IN1
+d[1] => d[1].IN1
+d[2] => d[2].IN1
+d[3] => d[3].IN1
+d[4] => d[4].IN1
+d[5] => d[5].IN1
+d[6] => d[6].IN1
+d[7] => d[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => mux2_1:mux2.s0
+
+
+|alu|ALU_1b:ALU_bits[9].b_i|mux8_1:control|mux4_1:mux0
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[9].b_i|mux8_1:control|mux4_1:mux1
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[9].b_i|mux8_1:control|mux2_1:mux2
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[10].b_i
+a => fullAdder:ad.a
+a => and0.IN0
+a => or0.IN0
+a => xor0.IN0
+b => b.IN1
+sel[0] => sel[0].IN1
+sel[1] => mux8_1:control.sel[1]
+sel[2] => mux8_1:control.sel[2]
+r <= mux8_1:control.out
+cOut <= fullAdder:ad.cOut
+cIn => fullAdder:ad.cIn
+
+
+|alu|ALU_1b:ALU_bits[10].b_i|mux2_1:sub0
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[10].b_i|fullAdder:ad
+a => sum.IN0
+a => and0.IN0
+a => and1.IN0
+b => sum.IN1
+b => and1.IN1
+b => and2.IN0
+cIn => sum.IN2
+cIn => and0.IN1
+cIn => and2.IN1
+s <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cOut <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[10].b_i|mux8_1:control
+out <= mux2_1:mux2.out
+d[0] => d[0].IN1
+d[1] => d[1].IN1
+d[2] => d[2].IN1
+d[3] => d[3].IN1
+d[4] => d[4].IN1
+d[5] => d[5].IN1
+d[6] => d[6].IN1
+d[7] => d[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => mux2_1:mux2.s0
+
+
+|alu|ALU_1b:ALU_bits[10].b_i|mux8_1:control|mux4_1:mux0
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[10].b_i|mux8_1:control|mux4_1:mux1
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[10].b_i|mux8_1:control|mux2_1:mux2
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[11].b_i
+a => fullAdder:ad.a
+a => and0.IN0
+a => or0.IN0
+a => xor0.IN0
+b => b.IN1
+sel[0] => sel[0].IN1
+sel[1] => mux8_1:control.sel[1]
+sel[2] => mux8_1:control.sel[2]
+r <= mux8_1:control.out
+cOut <= fullAdder:ad.cOut
+cIn => fullAdder:ad.cIn
+
+
+|alu|ALU_1b:ALU_bits[11].b_i|mux2_1:sub0
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[11].b_i|fullAdder:ad
+a => sum.IN0
+a => and0.IN0
+a => and1.IN0
+b => sum.IN1
+b => and1.IN1
+b => and2.IN0
+cIn => sum.IN2
+cIn => and0.IN1
+cIn => and2.IN1
+s <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cOut <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[11].b_i|mux8_1:control
+out <= mux2_1:mux2.out
+d[0] => d[0].IN1
+d[1] => d[1].IN1
+d[2] => d[2].IN1
+d[3] => d[3].IN1
+d[4] => d[4].IN1
+d[5] => d[5].IN1
+d[6] => d[6].IN1
+d[7] => d[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => mux2_1:mux2.s0
+
+
+|alu|ALU_1b:ALU_bits[11].b_i|mux8_1:control|mux4_1:mux0
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[11].b_i|mux8_1:control|mux4_1:mux1
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[11].b_i|mux8_1:control|mux2_1:mux2
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[12].b_i
+a => fullAdder:ad.a
+a => and0.IN0
+a => or0.IN0
+a => xor0.IN0
+b => b.IN1
+sel[0] => sel[0].IN1
+sel[1] => mux8_1:control.sel[1]
+sel[2] => mux8_1:control.sel[2]
+r <= mux8_1:control.out
+cOut <= fullAdder:ad.cOut
+cIn => fullAdder:ad.cIn
+
+
+|alu|ALU_1b:ALU_bits[12].b_i|mux2_1:sub0
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[12].b_i|fullAdder:ad
+a => sum.IN0
+a => and0.IN0
+a => and1.IN0
+b => sum.IN1
+b => and1.IN1
+b => and2.IN0
+cIn => sum.IN2
+cIn => and0.IN1
+cIn => and2.IN1
+s <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cOut <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[12].b_i|mux8_1:control
+out <= mux2_1:mux2.out
+d[0] => d[0].IN1
+d[1] => d[1].IN1
+d[2] => d[2].IN1
+d[3] => d[3].IN1
+d[4] => d[4].IN1
+d[5] => d[5].IN1
+d[6] => d[6].IN1
+d[7] => d[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => mux2_1:mux2.s0
+
+
+|alu|ALU_1b:ALU_bits[12].b_i|mux8_1:control|mux4_1:mux0
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[12].b_i|mux8_1:control|mux4_1:mux1
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[12].b_i|mux8_1:control|mux2_1:mux2
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[13].b_i
+a => fullAdder:ad.a
+a => and0.IN0
+a => or0.IN0
+a => xor0.IN0
+b => b.IN1
+sel[0] => sel[0].IN1
+sel[1] => mux8_1:control.sel[1]
+sel[2] => mux8_1:control.sel[2]
+r <= mux8_1:control.out
+cOut <= fullAdder:ad.cOut
+cIn => fullAdder:ad.cIn
+
+
+|alu|ALU_1b:ALU_bits[13].b_i|mux2_1:sub0
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[13].b_i|fullAdder:ad
+a => sum.IN0
+a => and0.IN0
+a => and1.IN0
+b => sum.IN1
+b => and1.IN1
+b => and2.IN0
+cIn => sum.IN2
+cIn => and0.IN1
+cIn => and2.IN1
+s <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cOut <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[13].b_i|mux8_1:control
+out <= mux2_1:mux2.out
+d[0] => d[0].IN1
+d[1] => d[1].IN1
+d[2] => d[2].IN1
+d[3] => d[3].IN1
+d[4] => d[4].IN1
+d[5] => d[5].IN1
+d[6] => d[6].IN1
+d[7] => d[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => mux2_1:mux2.s0
+
+
+|alu|ALU_1b:ALU_bits[13].b_i|mux8_1:control|mux4_1:mux0
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[13].b_i|mux8_1:control|mux4_1:mux1
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[13].b_i|mux8_1:control|mux2_1:mux2
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[14].b_i
+a => fullAdder:ad.a
+a => and0.IN0
+a => or0.IN0
+a => xor0.IN0
+b => b.IN1
+sel[0] => sel[0].IN1
+sel[1] => mux8_1:control.sel[1]
+sel[2] => mux8_1:control.sel[2]
+r <= mux8_1:control.out
+cOut <= fullAdder:ad.cOut
+cIn => fullAdder:ad.cIn
+
+
+|alu|ALU_1b:ALU_bits[14].b_i|mux2_1:sub0
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[14].b_i|fullAdder:ad
+a => sum.IN0
+a => and0.IN0
+a => and1.IN0
+b => sum.IN1
+b => and1.IN1
+b => and2.IN0
+cIn => sum.IN2
+cIn => and0.IN1
+cIn => and2.IN1
+s <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cOut <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[14].b_i|mux8_1:control
+out <= mux2_1:mux2.out
+d[0] => d[0].IN1
+d[1] => d[1].IN1
+d[2] => d[2].IN1
+d[3] => d[3].IN1
+d[4] => d[4].IN1
+d[5] => d[5].IN1
+d[6] => d[6].IN1
+d[7] => d[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => mux2_1:mux2.s0
+
+
+|alu|ALU_1b:ALU_bits[14].b_i|mux8_1:control|mux4_1:mux0
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[14].b_i|mux8_1:control|mux4_1:mux1
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[14].b_i|mux8_1:control|mux2_1:mux2
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[15].b_i
+a => fullAdder:ad.a
+a => and0.IN0
+a => or0.IN0
+a => xor0.IN0
+b => b.IN1
+sel[0] => sel[0].IN1
+sel[1] => mux8_1:control.sel[1]
+sel[2] => mux8_1:control.sel[2]
+r <= mux8_1:control.out
+cOut <= fullAdder:ad.cOut
+cIn => fullAdder:ad.cIn
+
+
+|alu|ALU_1b:ALU_bits[15].b_i|mux2_1:sub0
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[15].b_i|fullAdder:ad
+a => sum.IN0
+a => and0.IN0
+a => and1.IN0
+b => sum.IN1
+b => and1.IN1
+b => and2.IN0
+cIn => sum.IN2
+cIn => and0.IN1
+cIn => and2.IN1
+s <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cOut <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[15].b_i|mux8_1:control
+out <= mux2_1:mux2.out
+d[0] => d[0].IN1
+d[1] => d[1].IN1
+d[2] => d[2].IN1
+d[3] => d[3].IN1
+d[4] => d[4].IN1
+d[5] => d[5].IN1
+d[6] => d[6].IN1
+d[7] => d[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => mux2_1:mux2.s0
+
+
+|alu|ALU_1b:ALU_bits[15].b_i|mux8_1:control|mux4_1:mux0
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[15].b_i|mux8_1:control|mux4_1:mux1
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[15].b_i|mux8_1:control|mux2_1:mux2
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[16].b_i
+a => fullAdder:ad.a
+a => and0.IN0
+a => or0.IN0
+a => xor0.IN0
+b => b.IN1
+sel[0] => sel[0].IN1
+sel[1] => mux8_1:control.sel[1]
+sel[2] => mux8_1:control.sel[2]
+r <= mux8_1:control.out
+cOut <= fullAdder:ad.cOut
+cIn => fullAdder:ad.cIn
+
+
+|alu|ALU_1b:ALU_bits[16].b_i|mux2_1:sub0
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[16].b_i|fullAdder:ad
+a => sum.IN0
+a => and0.IN0
+a => and1.IN0
+b => sum.IN1
+b => and1.IN1
+b => and2.IN0
+cIn => sum.IN2
+cIn => and0.IN1
+cIn => and2.IN1
+s <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cOut <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[16].b_i|mux8_1:control
+out <= mux2_1:mux2.out
+d[0] => d[0].IN1
+d[1] => d[1].IN1
+d[2] => d[2].IN1
+d[3] => d[3].IN1
+d[4] => d[4].IN1
+d[5] => d[5].IN1
+d[6] => d[6].IN1
+d[7] => d[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => mux2_1:mux2.s0
+
+
+|alu|ALU_1b:ALU_bits[16].b_i|mux8_1:control|mux4_1:mux0
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[16].b_i|mux8_1:control|mux4_1:mux1
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[16].b_i|mux8_1:control|mux2_1:mux2
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[17].b_i
+a => fullAdder:ad.a
+a => and0.IN0
+a => or0.IN0
+a => xor0.IN0
+b => b.IN1
+sel[0] => sel[0].IN1
+sel[1] => mux8_1:control.sel[1]
+sel[2] => mux8_1:control.sel[2]
+r <= mux8_1:control.out
+cOut <= fullAdder:ad.cOut
+cIn => fullAdder:ad.cIn
+
+
+|alu|ALU_1b:ALU_bits[17].b_i|mux2_1:sub0
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[17].b_i|fullAdder:ad
+a => sum.IN0
+a => and0.IN0
+a => and1.IN0
+b => sum.IN1
+b => and1.IN1
+b => and2.IN0
+cIn => sum.IN2
+cIn => and0.IN1
+cIn => and2.IN1
+s <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cOut <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[17].b_i|mux8_1:control
+out <= mux2_1:mux2.out
+d[0] => d[0].IN1
+d[1] => d[1].IN1
+d[2] => d[2].IN1
+d[3] => d[3].IN1
+d[4] => d[4].IN1
+d[5] => d[5].IN1
+d[6] => d[6].IN1
+d[7] => d[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => mux2_1:mux2.s0
+
+
+|alu|ALU_1b:ALU_bits[17].b_i|mux8_1:control|mux4_1:mux0
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[17].b_i|mux8_1:control|mux4_1:mux1
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[17].b_i|mux8_1:control|mux2_1:mux2
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[18].b_i
+a => fullAdder:ad.a
+a => and0.IN0
+a => or0.IN0
+a => xor0.IN0
+b => b.IN1
+sel[0] => sel[0].IN1
+sel[1] => mux8_1:control.sel[1]
+sel[2] => mux8_1:control.sel[2]
+r <= mux8_1:control.out
+cOut <= fullAdder:ad.cOut
+cIn => fullAdder:ad.cIn
+
+
+|alu|ALU_1b:ALU_bits[18].b_i|mux2_1:sub0
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[18].b_i|fullAdder:ad
+a => sum.IN0
+a => and0.IN0
+a => and1.IN0
+b => sum.IN1
+b => and1.IN1
+b => and2.IN0
+cIn => sum.IN2
+cIn => and0.IN1
+cIn => and2.IN1
+s <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cOut <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[18].b_i|mux8_1:control
+out <= mux2_1:mux2.out
+d[0] => d[0].IN1
+d[1] => d[1].IN1
+d[2] => d[2].IN1
+d[3] => d[3].IN1
+d[4] => d[4].IN1
+d[5] => d[5].IN1
+d[6] => d[6].IN1
+d[7] => d[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => mux2_1:mux2.s0
+
+
+|alu|ALU_1b:ALU_bits[18].b_i|mux8_1:control|mux4_1:mux0
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[18].b_i|mux8_1:control|mux4_1:mux1
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[18].b_i|mux8_1:control|mux2_1:mux2
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[19].b_i
+a => fullAdder:ad.a
+a => and0.IN0
+a => or0.IN0
+a => xor0.IN0
+b => b.IN1
+sel[0] => sel[0].IN1
+sel[1] => mux8_1:control.sel[1]
+sel[2] => mux8_1:control.sel[2]
+r <= mux8_1:control.out
+cOut <= fullAdder:ad.cOut
+cIn => fullAdder:ad.cIn
+
+
+|alu|ALU_1b:ALU_bits[19].b_i|mux2_1:sub0
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[19].b_i|fullAdder:ad
+a => sum.IN0
+a => and0.IN0
+a => and1.IN0
+b => sum.IN1
+b => and1.IN1
+b => and2.IN0
+cIn => sum.IN2
+cIn => and0.IN1
+cIn => and2.IN1
+s <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cOut <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[19].b_i|mux8_1:control
+out <= mux2_1:mux2.out
+d[0] => d[0].IN1
+d[1] => d[1].IN1
+d[2] => d[2].IN1
+d[3] => d[3].IN1
+d[4] => d[4].IN1
+d[5] => d[5].IN1
+d[6] => d[6].IN1
+d[7] => d[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => mux2_1:mux2.s0
+
+
+|alu|ALU_1b:ALU_bits[19].b_i|mux8_1:control|mux4_1:mux0
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[19].b_i|mux8_1:control|mux4_1:mux1
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[19].b_i|mux8_1:control|mux2_1:mux2
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[20].b_i
+a => fullAdder:ad.a
+a => and0.IN0
+a => or0.IN0
+a => xor0.IN0
+b => b.IN1
+sel[0] => sel[0].IN1
+sel[1] => mux8_1:control.sel[1]
+sel[2] => mux8_1:control.sel[2]
+r <= mux8_1:control.out
+cOut <= fullAdder:ad.cOut
+cIn => fullAdder:ad.cIn
+
+
+|alu|ALU_1b:ALU_bits[20].b_i|mux2_1:sub0
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[20].b_i|fullAdder:ad
+a => sum.IN0
+a => and0.IN0
+a => and1.IN0
+b => sum.IN1
+b => and1.IN1
+b => and2.IN0
+cIn => sum.IN2
+cIn => and0.IN1
+cIn => and2.IN1
+s <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cOut <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[20].b_i|mux8_1:control
+out <= mux2_1:mux2.out
+d[0] => d[0].IN1
+d[1] => d[1].IN1
+d[2] => d[2].IN1
+d[3] => d[3].IN1
+d[4] => d[4].IN1
+d[5] => d[5].IN1
+d[6] => d[6].IN1
+d[7] => d[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => mux2_1:mux2.s0
+
+
+|alu|ALU_1b:ALU_bits[20].b_i|mux8_1:control|mux4_1:mux0
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[20].b_i|mux8_1:control|mux4_1:mux1
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[20].b_i|mux8_1:control|mux2_1:mux2
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[21].b_i
+a => fullAdder:ad.a
+a => and0.IN0
+a => or0.IN0
+a => xor0.IN0
+b => b.IN1
+sel[0] => sel[0].IN1
+sel[1] => mux8_1:control.sel[1]
+sel[2] => mux8_1:control.sel[2]
+r <= mux8_1:control.out
+cOut <= fullAdder:ad.cOut
+cIn => fullAdder:ad.cIn
+
+
+|alu|ALU_1b:ALU_bits[21].b_i|mux2_1:sub0
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[21].b_i|fullAdder:ad
+a => sum.IN0
+a => and0.IN0
+a => and1.IN0
+b => sum.IN1
+b => and1.IN1
+b => and2.IN0
+cIn => sum.IN2
+cIn => and0.IN1
+cIn => and2.IN1
+s <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cOut <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[21].b_i|mux8_1:control
+out <= mux2_1:mux2.out
+d[0] => d[0].IN1
+d[1] => d[1].IN1
+d[2] => d[2].IN1
+d[3] => d[3].IN1
+d[4] => d[4].IN1
+d[5] => d[5].IN1
+d[6] => d[6].IN1
+d[7] => d[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => mux2_1:mux2.s0
+
+
+|alu|ALU_1b:ALU_bits[21].b_i|mux8_1:control|mux4_1:mux0
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[21].b_i|mux8_1:control|mux4_1:mux1
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[21].b_i|mux8_1:control|mux2_1:mux2
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[22].b_i
+a => fullAdder:ad.a
+a => and0.IN0
+a => or0.IN0
+a => xor0.IN0
+b => b.IN1
+sel[0] => sel[0].IN1
+sel[1] => mux8_1:control.sel[1]
+sel[2] => mux8_1:control.sel[2]
+r <= mux8_1:control.out
+cOut <= fullAdder:ad.cOut
+cIn => fullAdder:ad.cIn
+
+
+|alu|ALU_1b:ALU_bits[22].b_i|mux2_1:sub0
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[22].b_i|fullAdder:ad
+a => sum.IN0
+a => and0.IN0
+a => and1.IN0
+b => sum.IN1
+b => and1.IN1
+b => and2.IN0
+cIn => sum.IN2
+cIn => and0.IN1
+cIn => and2.IN1
+s <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cOut <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[22].b_i|mux8_1:control
+out <= mux2_1:mux2.out
+d[0] => d[0].IN1
+d[1] => d[1].IN1
+d[2] => d[2].IN1
+d[3] => d[3].IN1
+d[4] => d[4].IN1
+d[5] => d[5].IN1
+d[6] => d[6].IN1
+d[7] => d[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => mux2_1:mux2.s0
+
+
+|alu|ALU_1b:ALU_bits[22].b_i|mux8_1:control|mux4_1:mux0
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[22].b_i|mux8_1:control|mux4_1:mux1
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[22].b_i|mux8_1:control|mux2_1:mux2
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[23].b_i
+a => fullAdder:ad.a
+a => and0.IN0
+a => or0.IN0
+a => xor0.IN0
+b => b.IN1
+sel[0] => sel[0].IN1
+sel[1] => mux8_1:control.sel[1]
+sel[2] => mux8_1:control.sel[2]
+r <= mux8_1:control.out
+cOut <= fullAdder:ad.cOut
+cIn => fullAdder:ad.cIn
+
+
+|alu|ALU_1b:ALU_bits[23].b_i|mux2_1:sub0
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[23].b_i|fullAdder:ad
+a => sum.IN0
+a => and0.IN0
+a => and1.IN0
+b => sum.IN1
+b => and1.IN1
+b => and2.IN0
+cIn => sum.IN2
+cIn => and0.IN1
+cIn => and2.IN1
+s <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cOut <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[23].b_i|mux8_1:control
+out <= mux2_1:mux2.out
+d[0] => d[0].IN1
+d[1] => d[1].IN1
+d[2] => d[2].IN1
+d[3] => d[3].IN1
+d[4] => d[4].IN1
+d[5] => d[5].IN1
+d[6] => d[6].IN1
+d[7] => d[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => mux2_1:mux2.s0
+
+
+|alu|ALU_1b:ALU_bits[23].b_i|mux8_1:control|mux4_1:mux0
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[23].b_i|mux8_1:control|mux4_1:mux1
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[23].b_i|mux8_1:control|mux2_1:mux2
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[24].b_i
+a => fullAdder:ad.a
+a => and0.IN0
+a => or0.IN0
+a => xor0.IN0
+b => b.IN1
+sel[0] => sel[0].IN1
+sel[1] => mux8_1:control.sel[1]
+sel[2] => mux8_1:control.sel[2]
+r <= mux8_1:control.out
+cOut <= fullAdder:ad.cOut
+cIn => fullAdder:ad.cIn
+
+
+|alu|ALU_1b:ALU_bits[24].b_i|mux2_1:sub0
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[24].b_i|fullAdder:ad
+a => sum.IN0
+a => and0.IN0
+a => and1.IN0
+b => sum.IN1
+b => and1.IN1
+b => and2.IN0
+cIn => sum.IN2
+cIn => and0.IN1
+cIn => and2.IN1
+s <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cOut <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[24].b_i|mux8_1:control
+out <= mux2_1:mux2.out
+d[0] => d[0].IN1
+d[1] => d[1].IN1
+d[2] => d[2].IN1
+d[3] => d[3].IN1
+d[4] => d[4].IN1
+d[5] => d[5].IN1
+d[6] => d[6].IN1
+d[7] => d[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => mux2_1:mux2.s0
+
+
+|alu|ALU_1b:ALU_bits[24].b_i|mux8_1:control|mux4_1:mux0
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[24].b_i|mux8_1:control|mux4_1:mux1
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[24].b_i|mux8_1:control|mux2_1:mux2
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[25].b_i
+a => fullAdder:ad.a
+a => and0.IN0
+a => or0.IN0
+a => xor0.IN0
+b => b.IN1
+sel[0] => sel[0].IN1
+sel[1] => mux8_1:control.sel[1]
+sel[2] => mux8_1:control.sel[2]
+r <= mux8_1:control.out
+cOut <= fullAdder:ad.cOut
+cIn => fullAdder:ad.cIn
+
+
+|alu|ALU_1b:ALU_bits[25].b_i|mux2_1:sub0
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[25].b_i|fullAdder:ad
+a => sum.IN0
+a => and0.IN0
+a => and1.IN0
+b => sum.IN1
+b => and1.IN1
+b => and2.IN0
+cIn => sum.IN2
+cIn => and0.IN1
+cIn => and2.IN1
+s <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cOut <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[25].b_i|mux8_1:control
+out <= mux2_1:mux2.out
+d[0] => d[0].IN1
+d[1] => d[1].IN1
+d[2] => d[2].IN1
+d[3] => d[3].IN1
+d[4] => d[4].IN1
+d[5] => d[5].IN1
+d[6] => d[6].IN1
+d[7] => d[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => mux2_1:mux2.s0
+
+
+|alu|ALU_1b:ALU_bits[25].b_i|mux8_1:control|mux4_1:mux0
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[25].b_i|mux8_1:control|mux4_1:mux1
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[25].b_i|mux8_1:control|mux2_1:mux2
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[26].b_i
+a => fullAdder:ad.a
+a => and0.IN0
+a => or0.IN0
+a => xor0.IN0
+b => b.IN1
+sel[0] => sel[0].IN1
+sel[1] => mux8_1:control.sel[1]
+sel[2] => mux8_1:control.sel[2]
+r <= mux8_1:control.out
+cOut <= fullAdder:ad.cOut
+cIn => fullAdder:ad.cIn
+
+
+|alu|ALU_1b:ALU_bits[26].b_i|mux2_1:sub0
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[26].b_i|fullAdder:ad
+a => sum.IN0
+a => and0.IN0
+a => and1.IN0
+b => sum.IN1
+b => and1.IN1
+b => and2.IN0
+cIn => sum.IN2
+cIn => and0.IN1
+cIn => and2.IN1
+s <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cOut <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[26].b_i|mux8_1:control
+out <= mux2_1:mux2.out
+d[0] => d[0].IN1
+d[1] => d[1].IN1
+d[2] => d[2].IN1
+d[3] => d[3].IN1
+d[4] => d[4].IN1
+d[5] => d[5].IN1
+d[6] => d[6].IN1
+d[7] => d[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => mux2_1:mux2.s0
+
+
+|alu|ALU_1b:ALU_bits[26].b_i|mux8_1:control|mux4_1:mux0
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[26].b_i|mux8_1:control|mux4_1:mux1
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[26].b_i|mux8_1:control|mux2_1:mux2
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[27].b_i
+a => fullAdder:ad.a
+a => and0.IN0
+a => or0.IN0
+a => xor0.IN0
+b => b.IN1
+sel[0] => sel[0].IN1
+sel[1] => mux8_1:control.sel[1]
+sel[2] => mux8_1:control.sel[2]
+r <= mux8_1:control.out
+cOut <= fullAdder:ad.cOut
+cIn => fullAdder:ad.cIn
+
+
+|alu|ALU_1b:ALU_bits[27].b_i|mux2_1:sub0
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[27].b_i|fullAdder:ad
+a => sum.IN0
+a => and0.IN0
+a => and1.IN0
+b => sum.IN1
+b => and1.IN1
+b => and2.IN0
+cIn => sum.IN2
+cIn => and0.IN1
+cIn => and2.IN1
+s <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cOut <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[27].b_i|mux8_1:control
+out <= mux2_1:mux2.out
+d[0] => d[0].IN1
+d[1] => d[1].IN1
+d[2] => d[2].IN1
+d[3] => d[3].IN1
+d[4] => d[4].IN1
+d[5] => d[5].IN1
+d[6] => d[6].IN1
+d[7] => d[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => mux2_1:mux2.s0
+
+
+|alu|ALU_1b:ALU_bits[27].b_i|mux8_1:control|mux4_1:mux0
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[27].b_i|mux8_1:control|mux4_1:mux1
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[27].b_i|mux8_1:control|mux2_1:mux2
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[28].b_i
+a => fullAdder:ad.a
+a => and0.IN0
+a => or0.IN0
+a => xor0.IN0
+b => b.IN1
+sel[0] => sel[0].IN1
+sel[1] => mux8_1:control.sel[1]
+sel[2] => mux8_1:control.sel[2]
+r <= mux8_1:control.out
+cOut <= fullAdder:ad.cOut
+cIn => fullAdder:ad.cIn
+
+
+|alu|ALU_1b:ALU_bits[28].b_i|mux2_1:sub0
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[28].b_i|fullAdder:ad
+a => sum.IN0
+a => and0.IN0
+a => and1.IN0
+b => sum.IN1
+b => and1.IN1
+b => and2.IN0
+cIn => sum.IN2
+cIn => and0.IN1
+cIn => and2.IN1
+s <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cOut <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[28].b_i|mux8_1:control
+out <= mux2_1:mux2.out
+d[0] => d[0].IN1
+d[1] => d[1].IN1
+d[2] => d[2].IN1
+d[3] => d[3].IN1
+d[4] => d[4].IN1
+d[5] => d[5].IN1
+d[6] => d[6].IN1
+d[7] => d[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => mux2_1:mux2.s0
+
+
+|alu|ALU_1b:ALU_bits[28].b_i|mux8_1:control|mux4_1:mux0
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[28].b_i|mux8_1:control|mux4_1:mux1
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[28].b_i|mux8_1:control|mux2_1:mux2
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[29].b_i
+a => fullAdder:ad.a
+a => and0.IN0
+a => or0.IN0
+a => xor0.IN0
+b => b.IN1
+sel[0] => sel[0].IN1
+sel[1] => mux8_1:control.sel[1]
+sel[2] => mux8_1:control.sel[2]
+r <= mux8_1:control.out
+cOut <= fullAdder:ad.cOut
+cIn => fullAdder:ad.cIn
+
+
+|alu|ALU_1b:ALU_bits[29].b_i|mux2_1:sub0
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[29].b_i|fullAdder:ad
+a => sum.IN0
+a => and0.IN0
+a => and1.IN0
+b => sum.IN1
+b => and1.IN1
+b => and2.IN0
+cIn => sum.IN2
+cIn => and0.IN1
+cIn => and2.IN1
+s <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cOut <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[29].b_i|mux8_1:control
+out <= mux2_1:mux2.out
+d[0] => d[0].IN1
+d[1] => d[1].IN1
+d[2] => d[2].IN1
+d[3] => d[3].IN1
+d[4] => d[4].IN1
+d[5] => d[5].IN1
+d[6] => d[6].IN1
+d[7] => d[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => mux2_1:mux2.s0
+
+
+|alu|ALU_1b:ALU_bits[29].b_i|mux8_1:control|mux4_1:mux0
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[29].b_i|mux8_1:control|mux4_1:mux1
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[29].b_i|mux8_1:control|mux2_1:mux2
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[30].b_i
+a => fullAdder:ad.a
+a => and0.IN0
+a => or0.IN0
+a => xor0.IN0
+b => b.IN1
+sel[0] => sel[0].IN1
+sel[1] => mux8_1:control.sel[1]
+sel[2] => mux8_1:control.sel[2]
+r <= mux8_1:control.out
+cOut <= fullAdder:ad.cOut
+cIn => fullAdder:ad.cIn
+
+
+|alu|ALU_1b:ALU_bits[30].b_i|mux2_1:sub0
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[30].b_i|fullAdder:ad
+a => sum.IN0
+a => and0.IN0
+a => and1.IN0
+b => sum.IN1
+b => and1.IN1
+b => and2.IN0
+cIn => sum.IN2
+cIn => and0.IN1
+cIn => and2.IN1
+s <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cOut <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[30].b_i|mux8_1:control
+out <= mux2_1:mux2.out
+d[0] => d[0].IN1
+d[1] => d[1].IN1
+d[2] => d[2].IN1
+d[3] => d[3].IN1
+d[4] => d[4].IN1
+d[5] => d[5].IN1
+d[6] => d[6].IN1
+d[7] => d[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => mux2_1:mux2.s0
+
+
+|alu|ALU_1b:ALU_bits[30].b_i|mux8_1:control|mux4_1:mux0
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[30].b_i|mux8_1:control|mux4_1:mux1
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[30].b_i|mux8_1:control|mux2_1:mux2
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[31].b_i
+a => fullAdder:ad.a
+a => and0.IN0
+a => or0.IN0
+a => xor0.IN0
+b => b.IN1
+sel[0] => sel[0].IN1
+sel[1] => mux8_1:control.sel[1]
+sel[2] => mux8_1:control.sel[2]
+r <= mux8_1:control.out
+cOut <= fullAdder:ad.cOut
+cIn => fullAdder:ad.cIn
+
+
+|alu|ALU_1b:ALU_bits[31].b_i|mux2_1:sub0
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[31].b_i|fullAdder:ad
+a => sum.IN0
+a => and0.IN0
+a => and1.IN0
+b => sum.IN1
+b => and1.IN1
+b => and2.IN0
+cIn => sum.IN2
+cIn => and0.IN1
+cIn => and2.IN1
+s <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cOut <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[31].b_i|mux8_1:control
+out <= mux2_1:mux2.out
+d[0] => d[0].IN1
+d[1] => d[1].IN1
+d[2] => d[2].IN1
+d[3] => d[3].IN1
+d[4] => d[4].IN1
+d[5] => d[5].IN1
+d[6] => d[6].IN1
+d[7] => d[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => mux2_1:mux2.s0
+
+
+|alu|ALU_1b:ALU_bits[31].b_i|mux8_1:control|mux4_1:mux0
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[31].b_i|mux8_1:control|mux4_1:mux1
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[31].b_i|mux8_1:control|mux2_1:mux2
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[32].b_i
+a => fullAdder:ad.a
+a => and0.IN0
+a => or0.IN0
+a => xor0.IN0
+b => b.IN1
+sel[0] => sel[0].IN1
+sel[1] => mux8_1:control.sel[1]
+sel[2] => mux8_1:control.sel[2]
+r <= mux8_1:control.out
+cOut <= fullAdder:ad.cOut
+cIn => fullAdder:ad.cIn
+
+
+|alu|ALU_1b:ALU_bits[32].b_i|mux2_1:sub0
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[32].b_i|fullAdder:ad
+a => sum.IN0
+a => and0.IN0
+a => and1.IN0
+b => sum.IN1
+b => and1.IN1
+b => and2.IN0
+cIn => sum.IN2
+cIn => and0.IN1
+cIn => and2.IN1
+s <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cOut <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[32].b_i|mux8_1:control
+out <= mux2_1:mux2.out
+d[0] => d[0].IN1
+d[1] => d[1].IN1
+d[2] => d[2].IN1
+d[3] => d[3].IN1
+d[4] => d[4].IN1
+d[5] => d[5].IN1
+d[6] => d[6].IN1
+d[7] => d[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => mux2_1:mux2.s0
+
+
+|alu|ALU_1b:ALU_bits[32].b_i|mux8_1:control|mux4_1:mux0
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[32].b_i|mux8_1:control|mux4_1:mux1
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[32].b_i|mux8_1:control|mux2_1:mux2
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[33].b_i
+a => fullAdder:ad.a
+a => and0.IN0
+a => or0.IN0
+a => xor0.IN0
+b => b.IN1
+sel[0] => sel[0].IN1
+sel[1] => mux8_1:control.sel[1]
+sel[2] => mux8_1:control.sel[2]
+r <= mux8_1:control.out
+cOut <= fullAdder:ad.cOut
+cIn => fullAdder:ad.cIn
+
+
+|alu|ALU_1b:ALU_bits[33].b_i|mux2_1:sub0
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[33].b_i|fullAdder:ad
+a => sum.IN0
+a => and0.IN0
+a => and1.IN0
+b => sum.IN1
+b => and1.IN1
+b => and2.IN0
+cIn => sum.IN2
+cIn => and0.IN1
+cIn => and2.IN1
+s <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cOut <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[33].b_i|mux8_1:control
+out <= mux2_1:mux2.out
+d[0] => d[0].IN1
+d[1] => d[1].IN1
+d[2] => d[2].IN1
+d[3] => d[3].IN1
+d[4] => d[4].IN1
+d[5] => d[5].IN1
+d[6] => d[6].IN1
+d[7] => d[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => mux2_1:mux2.s0
+
+
+|alu|ALU_1b:ALU_bits[33].b_i|mux8_1:control|mux4_1:mux0
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[33].b_i|mux8_1:control|mux4_1:mux1
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[33].b_i|mux8_1:control|mux2_1:mux2
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[34].b_i
+a => fullAdder:ad.a
+a => and0.IN0
+a => or0.IN0
+a => xor0.IN0
+b => b.IN1
+sel[0] => sel[0].IN1
+sel[1] => mux8_1:control.sel[1]
+sel[2] => mux8_1:control.sel[2]
+r <= mux8_1:control.out
+cOut <= fullAdder:ad.cOut
+cIn => fullAdder:ad.cIn
+
+
+|alu|ALU_1b:ALU_bits[34].b_i|mux2_1:sub0
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[34].b_i|fullAdder:ad
+a => sum.IN0
+a => and0.IN0
+a => and1.IN0
+b => sum.IN1
+b => and1.IN1
+b => and2.IN0
+cIn => sum.IN2
+cIn => and0.IN1
+cIn => and2.IN1
+s <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cOut <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[34].b_i|mux8_1:control
+out <= mux2_1:mux2.out
+d[0] => d[0].IN1
+d[1] => d[1].IN1
+d[2] => d[2].IN1
+d[3] => d[3].IN1
+d[4] => d[4].IN1
+d[5] => d[5].IN1
+d[6] => d[6].IN1
+d[7] => d[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => mux2_1:mux2.s0
+
+
+|alu|ALU_1b:ALU_bits[34].b_i|mux8_1:control|mux4_1:mux0
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[34].b_i|mux8_1:control|mux4_1:mux1
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[34].b_i|mux8_1:control|mux2_1:mux2
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[35].b_i
+a => fullAdder:ad.a
+a => and0.IN0
+a => or0.IN0
+a => xor0.IN0
+b => b.IN1
+sel[0] => sel[0].IN1
+sel[1] => mux8_1:control.sel[1]
+sel[2] => mux8_1:control.sel[2]
+r <= mux8_1:control.out
+cOut <= fullAdder:ad.cOut
+cIn => fullAdder:ad.cIn
+
+
+|alu|ALU_1b:ALU_bits[35].b_i|mux2_1:sub0
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[35].b_i|fullAdder:ad
+a => sum.IN0
+a => and0.IN0
+a => and1.IN0
+b => sum.IN1
+b => and1.IN1
+b => and2.IN0
+cIn => sum.IN2
+cIn => and0.IN1
+cIn => and2.IN1
+s <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cOut <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[35].b_i|mux8_1:control
+out <= mux2_1:mux2.out
+d[0] => d[0].IN1
+d[1] => d[1].IN1
+d[2] => d[2].IN1
+d[3] => d[3].IN1
+d[4] => d[4].IN1
+d[5] => d[5].IN1
+d[6] => d[6].IN1
+d[7] => d[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => mux2_1:mux2.s0
+
+
+|alu|ALU_1b:ALU_bits[35].b_i|mux8_1:control|mux4_1:mux0
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[35].b_i|mux8_1:control|mux4_1:mux1
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[35].b_i|mux8_1:control|mux2_1:mux2
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[36].b_i
+a => fullAdder:ad.a
+a => and0.IN0
+a => or0.IN0
+a => xor0.IN0
+b => b.IN1
+sel[0] => sel[0].IN1
+sel[1] => mux8_1:control.sel[1]
+sel[2] => mux8_1:control.sel[2]
+r <= mux8_1:control.out
+cOut <= fullAdder:ad.cOut
+cIn => fullAdder:ad.cIn
+
+
+|alu|ALU_1b:ALU_bits[36].b_i|mux2_1:sub0
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[36].b_i|fullAdder:ad
+a => sum.IN0
+a => and0.IN0
+a => and1.IN0
+b => sum.IN1
+b => and1.IN1
+b => and2.IN0
+cIn => sum.IN2
+cIn => and0.IN1
+cIn => and2.IN1
+s <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cOut <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[36].b_i|mux8_1:control
+out <= mux2_1:mux2.out
+d[0] => d[0].IN1
+d[1] => d[1].IN1
+d[2] => d[2].IN1
+d[3] => d[3].IN1
+d[4] => d[4].IN1
+d[5] => d[5].IN1
+d[6] => d[6].IN1
+d[7] => d[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => mux2_1:mux2.s0
+
+
+|alu|ALU_1b:ALU_bits[36].b_i|mux8_1:control|mux4_1:mux0
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[36].b_i|mux8_1:control|mux4_1:mux1
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[36].b_i|mux8_1:control|mux2_1:mux2
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[37].b_i
+a => fullAdder:ad.a
+a => and0.IN0
+a => or0.IN0
+a => xor0.IN0
+b => b.IN1
+sel[0] => sel[0].IN1
+sel[1] => mux8_1:control.sel[1]
+sel[2] => mux8_1:control.sel[2]
+r <= mux8_1:control.out
+cOut <= fullAdder:ad.cOut
+cIn => fullAdder:ad.cIn
+
+
+|alu|ALU_1b:ALU_bits[37].b_i|mux2_1:sub0
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[37].b_i|fullAdder:ad
+a => sum.IN0
+a => and0.IN0
+a => and1.IN0
+b => sum.IN1
+b => and1.IN1
+b => and2.IN0
+cIn => sum.IN2
+cIn => and0.IN1
+cIn => and2.IN1
+s <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cOut <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[37].b_i|mux8_1:control
+out <= mux2_1:mux2.out
+d[0] => d[0].IN1
+d[1] => d[1].IN1
+d[2] => d[2].IN1
+d[3] => d[3].IN1
+d[4] => d[4].IN1
+d[5] => d[5].IN1
+d[6] => d[6].IN1
+d[7] => d[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => mux2_1:mux2.s0
+
+
+|alu|ALU_1b:ALU_bits[37].b_i|mux8_1:control|mux4_1:mux0
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[37].b_i|mux8_1:control|mux4_1:mux1
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[37].b_i|mux8_1:control|mux2_1:mux2
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[38].b_i
+a => fullAdder:ad.a
+a => and0.IN0
+a => or0.IN0
+a => xor0.IN0
+b => b.IN1
+sel[0] => sel[0].IN1
+sel[1] => mux8_1:control.sel[1]
+sel[2] => mux8_1:control.sel[2]
+r <= mux8_1:control.out
+cOut <= fullAdder:ad.cOut
+cIn => fullAdder:ad.cIn
+
+
+|alu|ALU_1b:ALU_bits[38].b_i|mux2_1:sub0
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[38].b_i|fullAdder:ad
+a => sum.IN0
+a => and0.IN0
+a => and1.IN0
+b => sum.IN1
+b => and1.IN1
+b => and2.IN0
+cIn => sum.IN2
+cIn => and0.IN1
+cIn => and2.IN1
+s <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cOut <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[38].b_i|mux8_1:control
+out <= mux2_1:mux2.out
+d[0] => d[0].IN1
+d[1] => d[1].IN1
+d[2] => d[2].IN1
+d[3] => d[3].IN1
+d[4] => d[4].IN1
+d[5] => d[5].IN1
+d[6] => d[6].IN1
+d[7] => d[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => mux2_1:mux2.s0
+
+
+|alu|ALU_1b:ALU_bits[38].b_i|mux8_1:control|mux4_1:mux0
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[38].b_i|mux8_1:control|mux4_1:mux1
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[38].b_i|mux8_1:control|mux2_1:mux2
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[39].b_i
+a => fullAdder:ad.a
+a => and0.IN0
+a => or0.IN0
+a => xor0.IN0
+b => b.IN1
+sel[0] => sel[0].IN1
+sel[1] => mux8_1:control.sel[1]
+sel[2] => mux8_1:control.sel[2]
+r <= mux8_1:control.out
+cOut <= fullAdder:ad.cOut
+cIn => fullAdder:ad.cIn
+
+
+|alu|ALU_1b:ALU_bits[39].b_i|mux2_1:sub0
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[39].b_i|fullAdder:ad
+a => sum.IN0
+a => and0.IN0
+a => and1.IN0
+b => sum.IN1
+b => and1.IN1
+b => and2.IN0
+cIn => sum.IN2
+cIn => and0.IN1
+cIn => and2.IN1
+s <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cOut <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[39].b_i|mux8_1:control
+out <= mux2_1:mux2.out
+d[0] => d[0].IN1
+d[1] => d[1].IN1
+d[2] => d[2].IN1
+d[3] => d[3].IN1
+d[4] => d[4].IN1
+d[5] => d[5].IN1
+d[6] => d[6].IN1
+d[7] => d[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => mux2_1:mux2.s0
+
+
+|alu|ALU_1b:ALU_bits[39].b_i|mux8_1:control|mux4_1:mux0
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[39].b_i|mux8_1:control|mux4_1:mux1
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[39].b_i|mux8_1:control|mux2_1:mux2
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[40].b_i
+a => fullAdder:ad.a
+a => and0.IN0
+a => or0.IN0
+a => xor0.IN0
+b => b.IN1
+sel[0] => sel[0].IN1
+sel[1] => mux8_1:control.sel[1]
+sel[2] => mux8_1:control.sel[2]
+r <= mux8_1:control.out
+cOut <= fullAdder:ad.cOut
+cIn => fullAdder:ad.cIn
+
+
+|alu|ALU_1b:ALU_bits[40].b_i|mux2_1:sub0
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[40].b_i|fullAdder:ad
+a => sum.IN0
+a => and0.IN0
+a => and1.IN0
+b => sum.IN1
+b => and1.IN1
+b => and2.IN0
+cIn => sum.IN2
+cIn => and0.IN1
+cIn => and2.IN1
+s <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cOut <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[40].b_i|mux8_1:control
+out <= mux2_1:mux2.out
+d[0] => d[0].IN1
+d[1] => d[1].IN1
+d[2] => d[2].IN1
+d[3] => d[3].IN1
+d[4] => d[4].IN1
+d[5] => d[5].IN1
+d[6] => d[6].IN1
+d[7] => d[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => mux2_1:mux2.s0
+
+
+|alu|ALU_1b:ALU_bits[40].b_i|mux8_1:control|mux4_1:mux0
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[40].b_i|mux8_1:control|mux4_1:mux1
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[40].b_i|mux8_1:control|mux2_1:mux2
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[41].b_i
+a => fullAdder:ad.a
+a => and0.IN0
+a => or0.IN0
+a => xor0.IN0
+b => b.IN1
+sel[0] => sel[0].IN1
+sel[1] => mux8_1:control.sel[1]
+sel[2] => mux8_1:control.sel[2]
+r <= mux8_1:control.out
+cOut <= fullAdder:ad.cOut
+cIn => fullAdder:ad.cIn
+
+
+|alu|ALU_1b:ALU_bits[41].b_i|mux2_1:sub0
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[41].b_i|fullAdder:ad
+a => sum.IN0
+a => and0.IN0
+a => and1.IN0
+b => sum.IN1
+b => and1.IN1
+b => and2.IN0
+cIn => sum.IN2
+cIn => and0.IN1
+cIn => and2.IN1
+s <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cOut <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[41].b_i|mux8_1:control
+out <= mux2_1:mux2.out
+d[0] => d[0].IN1
+d[1] => d[1].IN1
+d[2] => d[2].IN1
+d[3] => d[3].IN1
+d[4] => d[4].IN1
+d[5] => d[5].IN1
+d[6] => d[6].IN1
+d[7] => d[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => mux2_1:mux2.s0
+
+
+|alu|ALU_1b:ALU_bits[41].b_i|mux8_1:control|mux4_1:mux0
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[41].b_i|mux8_1:control|mux4_1:mux1
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[41].b_i|mux8_1:control|mux2_1:mux2
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[42].b_i
+a => fullAdder:ad.a
+a => and0.IN0
+a => or0.IN0
+a => xor0.IN0
+b => b.IN1
+sel[0] => sel[0].IN1
+sel[1] => mux8_1:control.sel[1]
+sel[2] => mux8_1:control.sel[2]
+r <= mux8_1:control.out
+cOut <= fullAdder:ad.cOut
+cIn => fullAdder:ad.cIn
+
+
+|alu|ALU_1b:ALU_bits[42].b_i|mux2_1:sub0
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[42].b_i|fullAdder:ad
+a => sum.IN0
+a => and0.IN0
+a => and1.IN0
+b => sum.IN1
+b => and1.IN1
+b => and2.IN0
+cIn => sum.IN2
+cIn => and0.IN1
+cIn => and2.IN1
+s <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cOut <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[42].b_i|mux8_1:control
+out <= mux2_1:mux2.out
+d[0] => d[0].IN1
+d[1] => d[1].IN1
+d[2] => d[2].IN1
+d[3] => d[3].IN1
+d[4] => d[4].IN1
+d[5] => d[5].IN1
+d[6] => d[6].IN1
+d[7] => d[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => mux2_1:mux2.s0
+
+
+|alu|ALU_1b:ALU_bits[42].b_i|mux8_1:control|mux4_1:mux0
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[42].b_i|mux8_1:control|mux4_1:mux1
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[42].b_i|mux8_1:control|mux2_1:mux2
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[43].b_i
+a => fullAdder:ad.a
+a => and0.IN0
+a => or0.IN0
+a => xor0.IN0
+b => b.IN1
+sel[0] => sel[0].IN1
+sel[1] => mux8_1:control.sel[1]
+sel[2] => mux8_1:control.sel[2]
+r <= mux8_1:control.out
+cOut <= fullAdder:ad.cOut
+cIn => fullAdder:ad.cIn
+
+
+|alu|ALU_1b:ALU_bits[43].b_i|mux2_1:sub0
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[43].b_i|fullAdder:ad
+a => sum.IN0
+a => and0.IN0
+a => and1.IN0
+b => sum.IN1
+b => and1.IN1
+b => and2.IN0
+cIn => sum.IN2
+cIn => and0.IN1
+cIn => and2.IN1
+s <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cOut <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[43].b_i|mux8_1:control
+out <= mux2_1:mux2.out
+d[0] => d[0].IN1
+d[1] => d[1].IN1
+d[2] => d[2].IN1
+d[3] => d[3].IN1
+d[4] => d[4].IN1
+d[5] => d[5].IN1
+d[6] => d[6].IN1
+d[7] => d[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => mux2_1:mux2.s0
+
+
+|alu|ALU_1b:ALU_bits[43].b_i|mux8_1:control|mux4_1:mux0
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[43].b_i|mux8_1:control|mux4_1:mux1
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[43].b_i|mux8_1:control|mux2_1:mux2
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[44].b_i
+a => fullAdder:ad.a
+a => and0.IN0
+a => or0.IN0
+a => xor0.IN0
+b => b.IN1
+sel[0] => sel[0].IN1
+sel[1] => mux8_1:control.sel[1]
+sel[2] => mux8_1:control.sel[2]
+r <= mux8_1:control.out
+cOut <= fullAdder:ad.cOut
+cIn => fullAdder:ad.cIn
+
+
+|alu|ALU_1b:ALU_bits[44].b_i|mux2_1:sub0
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[44].b_i|fullAdder:ad
+a => sum.IN0
+a => and0.IN0
+a => and1.IN0
+b => sum.IN1
+b => and1.IN1
+b => and2.IN0
+cIn => sum.IN2
+cIn => and0.IN1
+cIn => and2.IN1
+s <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cOut <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[44].b_i|mux8_1:control
+out <= mux2_1:mux2.out
+d[0] => d[0].IN1
+d[1] => d[1].IN1
+d[2] => d[2].IN1
+d[3] => d[3].IN1
+d[4] => d[4].IN1
+d[5] => d[5].IN1
+d[6] => d[6].IN1
+d[7] => d[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => mux2_1:mux2.s0
+
+
+|alu|ALU_1b:ALU_bits[44].b_i|mux8_1:control|mux4_1:mux0
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[44].b_i|mux8_1:control|mux4_1:mux1
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[44].b_i|mux8_1:control|mux2_1:mux2
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[45].b_i
+a => fullAdder:ad.a
+a => and0.IN0
+a => or0.IN0
+a => xor0.IN0
+b => b.IN1
+sel[0] => sel[0].IN1
+sel[1] => mux8_1:control.sel[1]
+sel[2] => mux8_1:control.sel[2]
+r <= mux8_1:control.out
+cOut <= fullAdder:ad.cOut
+cIn => fullAdder:ad.cIn
+
+
+|alu|ALU_1b:ALU_bits[45].b_i|mux2_1:sub0
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[45].b_i|fullAdder:ad
+a => sum.IN0
+a => and0.IN0
+a => and1.IN0
+b => sum.IN1
+b => and1.IN1
+b => and2.IN0
+cIn => sum.IN2
+cIn => and0.IN1
+cIn => and2.IN1
+s <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cOut <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[45].b_i|mux8_1:control
+out <= mux2_1:mux2.out
+d[0] => d[0].IN1
+d[1] => d[1].IN1
+d[2] => d[2].IN1
+d[3] => d[3].IN1
+d[4] => d[4].IN1
+d[5] => d[5].IN1
+d[6] => d[6].IN1
+d[7] => d[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => mux2_1:mux2.s0
+
+
+|alu|ALU_1b:ALU_bits[45].b_i|mux8_1:control|mux4_1:mux0
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[45].b_i|mux8_1:control|mux4_1:mux1
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[45].b_i|mux8_1:control|mux2_1:mux2
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[46].b_i
+a => fullAdder:ad.a
+a => and0.IN0
+a => or0.IN0
+a => xor0.IN0
+b => b.IN1
+sel[0] => sel[0].IN1
+sel[1] => mux8_1:control.sel[1]
+sel[2] => mux8_1:control.sel[2]
+r <= mux8_1:control.out
+cOut <= fullAdder:ad.cOut
+cIn => fullAdder:ad.cIn
+
+
+|alu|ALU_1b:ALU_bits[46].b_i|mux2_1:sub0
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[46].b_i|fullAdder:ad
+a => sum.IN0
+a => and0.IN0
+a => and1.IN0
+b => sum.IN1
+b => and1.IN1
+b => and2.IN0
+cIn => sum.IN2
+cIn => and0.IN1
+cIn => and2.IN1
+s <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cOut <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[46].b_i|mux8_1:control
+out <= mux2_1:mux2.out
+d[0] => d[0].IN1
+d[1] => d[1].IN1
+d[2] => d[2].IN1
+d[3] => d[3].IN1
+d[4] => d[4].IN1
+d[5] => d[5].IN1
+d[6] => d[6].IN1
+d[7] => d[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => mux2_1:mux2.s0
+
+
+|alu|ALU_1b:ALU_bits[46].b_i|mux8_1:control|mux4_1:mux0
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[46].b_i|mux8_1:control|mux4_1:mux1
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[46].b_i|mux8_1:control|mux2_1:mux2
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[47].b_i
+a => fullAdder:ad.a
+a => and0.IN0
+a => or0.IN0
+a => xor0.IN0
+b => b.IN1
+sel[0] => sel[0].IN1
+sel[1] => mux8_1:control.sel[1]
+sel[2] => mux8_1:control.sel[2]
+r <= mux8_1:control.out
+cOut <= fullAdder:ad.cOut
+cIn => fullAdder:ad.cIn
+
+
+|alu|ALU_1b:ALU_bits[47].b_i|mux2_1:sub0
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[47].b_i|fullAdder:ad
+a => sum.IN0
+a => and0.IN0
+a => and1.IN0
+b => sum.IN1
+b => and1.IN1
+b => and2.IN0
+cIn => sum.IN2
+cIn => and0.IN1
+cIn => and2.IN1
+s <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cOut <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[47].b_i|mux8_1:control
+out <= mux2_1:mux2.out
+d[0] => d[0].IN1
+d[1] => d[1].IN1
+d[2] => d[2].IN1
+d[3] => d[3].IN1
+d[4] => d[4].IN1
+d[5] => d[5].IN1
+d[6] => d[6].IN1
+d[7] => d[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => mux2_1:mux2.s0
+
+
+|alu|ALU_1b:ALU_bits[47].b_i|mux8_1:control|mux4_1:mux0
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[47].b_i|mux8_1:control|mux4_1:mux1
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[47].b_i|mux8_1:control|mux2_1:mux2
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[48].b_i
+a => fullAdder:ad.a
+a => and0.IN0
+a => or0.IN0
+a => xor0.IN0
+b => b.IN1
+sel[0] => sel[0].IN1
+sel[1] => mux8_1:control.sel[1]
+sel[2] => mux8_1:control.sel[2]
+r <= mux8_1:control.out
+cOut <= fullAdder:ad.cOut
+cIn => fullAdder:ad.cIn
+
+
+|alu|ALU_1b:ALU_bits[48].b_i|mux2_1:sub0
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[48].b_i|fullAdder:ad
+a => sum.IN0
+a => and0.IN0
+a => and1.IN0
+b => sum.IN1
+b => and1.IN1
+b => and2.IN0
+cIn => sum.IN2
+cIn => and0.IN1
+cIn => and2.IN1
+s <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cOut <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[48].b_i|mux8_1:control
+out <= mux2_1:mux2.out
+d[0] => d[0].IN1
+d[1] => d[1].IN1
+d[2] => d[2].IN1
+d[3] => d[3].IN1
+d[4] => d[4].IN1
+d[5] => d[5].IN1
+d[6] => d[6].IN1
+d[7] => d[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => mux2_1:mux2.s0
+
+
+|alu|ALU_1b:ALU_bits[48].b_i|mux8_1:control|mux4_1:mux0
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[48].b_i|mux8_1:control|mux4_1:mux1
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[48].b_i|mux8_1:control|mux2_1:mux2
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[49].b_i
+a => fullAdder:ad.a
+a => and0.IN0
+a => or0.IN0
+a => xor0.IN0
+b => b.IN1
+sel[0] => sel[0].IN1
+sel[1] => mux8_1:control.sel[1]
+sel[2] => mux8_1:control.sel[2]
+r <= mux8_1:control.out
+cOut <= fullAdder:ad.cOut
+cIn => fullAdder:ad.cIn
+
+
+|alu|ALU_1b:ALU_bits[49].b_i|mux2_1:sub0
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[49].b_i|fullAdder:ad
+a => sum.IN0
+a => and0.IN0
+a => and1.IN0
+b => sum.IN1
+b => and1.IN1
+b => and2.IN0
+cIn => sum.IN2
+cIn => and0.IN1
+cIn => and2.IN1
+s <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cOut <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[49].b_i|mux8_1:control
+out <= mux2_1:mux2.out
+d[0] => d[0].IN1
+d[1] => d[1].IN1
+d[2] => d[2].IN1
+d[3] => d[3].IN1
+d[4] => d[4].IN1
+d[5] => d[5].IN1
+d[6] => d[6].IN1
+d[7] => d[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => mux2_1:mux2.s0
+
+
+|alu|ALU_1b:ALU_bits[49].b_i|mux8_1:control|mux4_1:mux0
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[49].b_i|mux8_1:control|mux4_1:mux1
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[49].b_i|mux8_1:control|mux2_1:mux2
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[50].b_i
+a => fullAdder:ad.a
+a => and0.IN0
+a => or0.IN0
+a => xor0.IN0
+b => b.IN1
+sel[0] => sel[0].IN1
+sel[1] => mux8_1:control.sel[1]
+sel[2] => mux8_1:control.sel[2]
+r <= mux8_1:control.out
+cOut <= fullAdder:ad.cOut
+cIn => fullAdder:ad.cIn
+
+
+|alu|ALU_1b:ALU_bits[50].b_i|mux2_1:sub0
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[50].b_i|fullAdder:ad
+a => sum.IN0
+a => and0.IN0
+a => and1.IN0
+b => sum.IN1
+b => and1.IN1
+b => and2.IN0
+cIn => sum.IN2
+cIn => and0.IN1
+cIn => and2.IN1
+s <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cOut <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[50].b_i|mux8_1:control
+out <= mux2_1:mux2.out
+d[0] => d[0].IN1
+d[1] => d[1].IN1
+d[2] => d[2].IN1
+d[3] => d[3].IN1
+d[4] => d[4].IN1
+d[5] => d[5].IN1
+d[6] => d[6].IN1
+d[7] => d[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => mux2_1:mux2.s0
+
+
+|alu|ALU_1b:ALU_bits[50].b_i|mux8_1:control|mux4_1:mux0
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[50].b_i|mux8_1:control|mux4_1:mux1
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[50].b_i|mux8_1:control|mux2_1:mux2
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[51].b_i
+a => fullAdder:ad.a
+a => and0.IN0
+a => or0.IN0
+a => xor0.IN0
+b => b.IN1
+sel[0] => sel[0].IN1
+sel[1] => mux8_1:control.sel[1]
+sel[2] => mux8_1:control.sel[2]
+r <= mux8_1:control.out
+cOut <= fullAdder:ad.cOut
+cIn => fullAdder:ad.cIn
+
+
+|alu|ALU_1b:ALU_bits[51].b_i|mux2_1:sub0
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[51].b_i|fullAdder:ad
+a => sum.IN0
+a => and0.IN0
+a => and1.IN0
+b => sum.IN1
+b => and1.IN1
+b => and2.IN0
+cIn => sum.IN2
+cIn => and0.IN1
+cIn => and2.IN1
+s <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cOut <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[51].b_i|mux8_1:control
+out <= mux2_1:mux2.out
+d[0] => d[0].IN1
+d[1] => d[1].IN1
+d[2] => d[2].IN1
+d[3] => d[3].IN1
+d[4] => d[4].IN1
+d[5] => d[5].IN1
+d[6] => d[6].IN1
+d[7] => d[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => mux2_1:mux2.s0
+
+
+|alu|ALU_1b:ALU_bits[51].b_i|mux8_1:control|mux4_1:mux0
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[51].b_i|mux8_1:control|mux4_1:mux1
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[51].b_i|mux8_1:control|mux2_1:mux2
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[52].b_i
+a => fullAdder:ad.a
+a => and0.IN0
+a => or0.IN0
+a => xor0.IN0
+b => b.IN1
+sel[0] => sel[0].IN1
+sel[1] => mux8_1:control.sel[1]
+sel[2] => mux8_1:control.sel[2]
+r <= mux8_1:control.out
+cOut <= fullAdder:ad.cOut
+cIn => fullAdder:ad.cIn
+
+
+|alu|ALU_1b:ALU_bits[52].b_i|mux2_1:sub0
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[52].b_i|fullAdder:ad
+a => sum.IN0
+a => and0.IN0
+a => and1.IN0
+b => sum.IN1
+b => and1.IN1
+b => and2.IN0
+cIn => sum.IN2
+cIn => and0.IN1
+cIn => and2.IN1
+s <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cOut <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[52].b_i|mux8_1:control
+out <= mux2_1:mux2.out
+d[0] => d[0].IN1
+d[1] => d[1].IN1
+d[2] => d[2].IN1
+d[3] => d[3].IN1
+d[4] => d[4].IN1
+d[5] => d[5].IN1
+d[6] => d[6].IN1
+d[7] => d[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => mux2_1:mux2.s0
+
+
+|alu|ALU_1b:ALU_bits[52].b_i|mux8_1:control|mux4_1:mux0
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[52].b_i|mux8_1:control|mux4_1:mux1
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[52].b_i|mux8_1:control|mux2_1:mux2
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[53].b_i
+a => fullAdder:ad.a
+a => and0.IN0
+a => or0.IN0
+a => xor0.IN0
+b => b.IN1
+sel[0] => sel[0].IN1
+sel[1] => mux8_1:control.sel[1]
+sel[2] => mux8_1:control.sel[2]
+r <= mux8_1:control.out
+cOut <= fullAdder:ad.cOut
+cIn => fullAdder:ad.cIn
+
+
+|alu|ALU_1b:ALU_bits[53].b_i|mux2_1:sub0
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[53].b_i|fullAdder:ad
+a => sum.IN0
+a => and0.IN0
+a => and1.IN0
+b => sum.IN1
+b => and1.IN1
+b => and2.IN0
+cIn => sum.IN2
+cIn => and0.IN1
+cIn => and2.IN1
+s <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cOut <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[53].b_i|mux8_1:control
+out <= mux2_1:mux2.out
+d[0] => d[0].IN1
+d[1] => d[1].IN1
+d[2] => d[2].IN1
+d[3] => d[3].IN1
+d[4] => d[4].IN1
+d[5] => d[5].IN1
+d[6] => d[6].IN1
+d[7] => d[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => mux2_1:mux2.s0
+
+
+|alu|ALU_1b:ALU_bits[53].b_i|mux8_1:control|mux4_1:mux0
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[53].b_i|mux8_1:control|mux4_1:mux1
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[53].b_i|mux8_1:control|mux2_1:mux2
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[54].b_i
+a => fullAdder:ad.a
+a => and0.IN0
+a => or0.IN0
+a => xor0.IN0
+b => b.IN1
+sel[0] => sel[0].IN1
+sel[1] => mux8_1:control.sel[1]
+sel[2] => mux8_1:control.sel[2]
+r <= mux8_1:control.out
+cOut <= fullAdder:ad.cOut
+cIn => fullAdder:ad.cIn
+
+
+|alu|ALU_1b:ALU_bits[54].b_i|mux2_1:sub0
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[54].b_i|fullAdder:ad
+a => sum.IN0
+a => and0.IN0
+a => and1.IN0
+b => sum.IN1
+b => and1.IN1
+b => and2.IN0
+cIn => sum.IN2
+cIn => and0.IN1
+cIn => and2.IN1
+s <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cOut <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[54].b_i|mux8_1:control
+out <= mux2_1:mux2.out
+d[0] => d[0].IN1
+d[1] => d[1].IN1
+d[2] => d[2].IN1
+d[3] => d[3].IN1
+d[4] => d[4].IN1
+d[5] => d[5].IN1
+d[6] => d[6].IN1
+d[7] => d[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => mux2_1:mux2.s0
+
+
+|alu|ALU_1b:ALU_bits[54].b_i|mux8_1:control|mux4_1:mux0
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[54].b_i|mux8_1:control|mux4_1:mux1
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[54].b_i|mux8_1:control|mux2_1:mux2
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[55].b_i
+a => fullAdder:ad.a
+a => and0.IN0
+a => or0.IN0
+a => xor0.IN0
+b => b.IN1
+sel[0] => sel[0].IN1
+sel[1] => mux8_1:control.sel[1]
+sel[2] => mux8_1:control.sel[2]
+r <= mux8_1:control.out
+cOut <= fullAdder:ad.cOut
+cIn => fullAdder:ad.cIn
+
+
+|alu|ALU_1b:ALU_bits[55].b_i|mux2_1:sub0
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[55].b_i|fullAdder:ad
+a => sum.IN0
+a => and0.IN0
+a => and1.IN0
+b => sum.IN1
+b => and1.IN1
+b => and2.IN0
+cIn => sum.IN2
+cIn => and0.IN1
+cIn => and2.IN1
+s <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cOut <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[55].b_i|mux8_1:control
+out <= mux2_1:mux2.out
+d[0] => d[0].IN1
+d[1] => d[1].IN1
+d[2] => d[2].IN1
+d[3] => d[3].IN1
+d[4] => d[4].IN1
+d[5] => d[5].IN1
+d[6] => d[6].IN1
+d[7] => d[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => mux2_1:mux2.s0
+
+
+|alu|ALU_1b:ALU_bits[55].b_i|mux8_1:control|mux4_1:mux0
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[55].b_i|mux8_1:control|mux4_1:mux1
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[55].b_i|mux8_1:control|mux2_1:mux2
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[56].b_i
+a => fullAdder:ad.a
+a => and0.IN0
+a => or0.IN0
+a => xor0.IN0
+b => b.IN1
+sel[0] => sel[0].IN1
+sel[1] => mux8_1:control.sel[1]
+sel[2] => mux8_1:control.sel[2]
+r <= mux8_1:control.out
+cOut <= fullAdder:ad.cOut
+cIn => fullAdder:ad.cIn
+
+
+|alu|ALU_1b:ALU_bits[56].b_i|mux2_1:sub0
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[56].b_i|fullAdder:ad
+a => sum.IN0
+a => and0.IN0
+a => and1.IN0
+b => sum.IN1
+b => and1.IN1
+b => and2.IN0
+cIn => sum.IN2
+cIn => and0.IN1
+cIn => and2.IN1
+s <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cOut <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[56].b_i|mux8_1:control
+out <= mux2_1:mux2.out
+d[0] => d[0].IN1
+d[1] => d[1].IN1
+d[2] => d[2].IN1
+d[3] => d[3].IN1
+d[4] => d[4].IN1
+d[5] => d[5].IN1
+d[6] => d[6].IN1
+d[7] => d[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => mux2_1:mux2.s0
+
+
+|alu|ALU_1b:ALU_bits[56].b_i|mux8_1:control|mux4_1:mux0
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[56].b_i|mux8_1:control|mux4_1:mux1
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[56].b_i|mux8_1:control|mux2_1:mux2
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[57].b_i
+a => fullAdder:ad.a
+a => and0.IN0
+a => or0.IN0
+a => xor0.IN0
+b => b.IN1
+sel[0] => sel[0].IN1
+sel[1] => mux8_1:control.sel[1]
+sel[2] => mux8_1:control.sel[2]
+r <= mux8_1:control.out
+cOut <= fullAdder:ad.cOut
+cIn => fullAdder:ad.cIn
+
+
+|alu|ALU_1b:ALU_bits[57].b_i|mux2_1:sub0
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[57].b_i|fullAdder:ad
+a => sum.IN0
+a => and0.IN0
+a => and1.IN0
+b => sum.IN1
+b => and1.IN1
+b => and2.IN0
+cIn => sum.IN2
+cIn => and0.IN1
+cIn => and2.IN1
+s <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cOut <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[57].b_i|mux8_1:control
+out <= mux2_1:mux2.out
+d[0] => d[0].IN1
+d[1] => d[1].IN1
+d[2] => d[2].IN1
+d[3] => d[3].IN1
+d[4] => d[4].IN1
+d[5] => d[5].IN1
+d[6] => d[6].IN1
+d[7] => d[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => mux2_1:mux2.s0
+
+
+|alu|ALU_1b:ALU_bits[57].b_i|mux8_1:control|mux4_1:mux0
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[57].b_i|mux8_1:control|mux4_1:mux1
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[57].b_i|mux8_1:control|mux2_1:mux2
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[58].b_i
+a => fullAdder:ad.a
+a => and0.IN0
+a => or0.IN0
+a => xor0.IN0
+b => b.IN1
+sel[0] => sel[0].IN1
+sel[1] => mux8_1:control.sel[1]
+sel[2] => mux8_1:control.sel[2]
+r <= mux8_1:control.out
+cOut <= fullAdder:ad.cOut
+cIn => fullAdder:ad.cIn
+
+
+|alu|ALU_1b:ALU_bits[58].b_i|mux2_1:sub0
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[58].b_i|fullAdder:ad
+a => sum.IN0
+a => and0.IN0
+a => and1.IN0
+b => sum.IN1
+b => and1.IN1
+b => and2.IN0
+cIn => sum.IN2
+cIn => and0.IN1
+cIn => and2.IN1
+s <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cOut <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[58].b_i|mux8_1:control
+out <= mux2_1:mux2.out
+d[0] => d[0].IN1
+d[1] => d[1].IN1
+d[2] => d[2].IN1
+d[3] => d[3].IN1
+d[4] => d[4].IN1
+d[5] => d[5].IN1
+d[6] => d[6].IN1
+d[7] => d[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => mux2_1:mux2.s0
+
+
+|alu|ALU_1b:ALU_bits[58].b_i|mux8_1:control|mux4_1:mux0
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[58].b_i|mux8_1:control|mux4_1:mux1
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[58].b_i|mux8_1:control|mux2_1:mux2
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[59].b_i
+a => fullAdder:ad.a
+a => and0.IN0
+a => or0.IN0
+a => xor0.IN0
+b => b.IN1
+sel[0] => sel[0].IN1
+sel[1] => mux8_1:control.sel[1]
+sel[2] => mux8_1:control.sel[2]
+r <= mux8_1:control.out
+cOut <= fullAdder:ad.cOut
+cIn => fullAdder:ad.cIn
+
+
+|alu|ALU_1b:ALU_bits[59].b_i|mux2_1:sub0
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[59].b_i|fullAdder:ad
+a => sum.IN0
+a => and0.IN0
+a => and1.IN0
+b => sum.IN1
+b => and1.IN1
+b => and2.IN0
+cIn => sum.IN2
+cIn => and0.IN1
+cIn => and2.IN1
+s <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cOut <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[59].b_i|mux8_1:control
+out <= mux2_1:mux2.out
+d[0] => d[0].IN1
+d[1] => d[1].IN1
+d[2] => d[2].IN1
+d[3] => d[3].IN1
+d[4] => d[4].IN1
+d[5] => d[5].IN1
+d[6] => d[6].IN1
+d[7] => d[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => mux2_1:mux2.s0
+
+
+|alu|ALU_1b:ALU_bits[59].b_i|mux8_1:control|mux4_1:mux0
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[59].b_i|mux8_1:control|mux4_1:mux1
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[59].b_i|mux8_1:control|mux2_1:mux2
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[60].b_i
+a => fullAdder:ad.a
+a => and0.IN0
+a => or0.IN0
+a => xor0.IN0
+b => b.IN1
+sel[0] => sel[0].IN1
+sel[1] => mux8_1:control.sel[1]
+sel[2] => mux8_1:control.sel[2]
+r <= mux8_1:control.out
+cOut <= fullAdder:ad.cOut
+cIn => fullAdder:ad.cIn
+
+
+|alu|ALU_1b:ALU_bits[60].b_i|mux2_1:sub0
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[60].b_i|fullAdder:ad
+a => sum.IN0
+a => and0.IN0
+a => and1.IN0
+b => sum.IN1
+b => and1.IN1
+b => and2.IN0
+cIn => sum.IN2
+cIn => and0.IN1
+cIn => and2.IN1
+s <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cOut <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[60].b_i|mux8_1:control
+out <= mux2_1:mux2.out
+d[0] => d[0].IN1
+d[1] => d[1].IN1
+d[2] => d[2].IN1
+d[3] => d[3].IN1
+d[4] => d[4].IN1
+d[5] => d[5].IN1
+d[6] => d[6].IN1
+d[7] => d[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => mux2_1:mux2.s0
+
+
+|alu|ALU_1b:ALU_bits[60].b_i|mux8_1:control|mux4_1:mux0
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[60].b_i|mux8_1:control|mux4_1:mux1
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[60].b_i|mux8_1:control|mux2_1:mux2
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[61].b_i
+a => fullAdder:ad.a
+a => and0.IN0
+a => or0.IN0
+a => xor0.IN0
+b => b.IN1
+sel[0] => sel[0].IN1
+sel[1] => mux8_1:control.sel[1]
+sel[2] => mux8_1:control.sel[2]
+r <= mux8_1:control.out
+cOut <= fullAdder:ad.cOut
+cIn => fullAdder:ad.cIn
+
+
+|alu|ALU_1b:ALU_bits[61].b_i|mux2_1:sub0
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[61].b_i|fullAdder:ad
+a => sum.IN0
+a => and0.IN0
+a => and1.IN0
+b => sum.IN1
+b => and1.IN1
+b => and2.IN0
+cIn => sum.IN2
+cIn => and0.IN1
+cIn => and2.IN1
+s <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cOut <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[61].b_i|mux8_1:control
+out <= mux2_1:mux2.out
+d[0] => d[0].IN1
+d[1] => d[1].IN1
+d[2] => d[2].IN1
+d[3] => d[3].IN1
+d[4] => d[4].IN1
+d[5] => d[5].IN1
+d[6] => d[6].IN1
+d[7] => d[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => mux2_1:mux2.s0
+
+
+|alu|ALU_1b:ALU_bits[61].b_i|mux8_1:control|mux4_1:mux0
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[61].b_i|mux8_1:control|mux4_1:mux1
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[61].b_i|mux8_1:control|mux2_1:mux2
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[62].b_i
+a => fullAdder:ad.a
+a => and0.IN0
+a => or0.IN0
+a => xor0.IN0
+b => b.IN1
+sel[0] => sel[0].IN1
+sel[1] => mux8_1:control.sel[1]
+sel[2] => mux8_1:control.sel[2]
+r <= mux8_1:control.out
+cOut <= fullAdder:ad.cOut
+cIn => fullAdder:ad.cIn
+
+
+|alu|ALU_1b:ALU_bits[62].b_i|mux2_1:sub0
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[62].b_i|fullAdder:ad
+a => sum.IN0
+a => and0.IN0
+a => and1.IN0
+b => sum.IN1
+b => and1.IN1
+b => and2.IN0
+cIn => sum.IN2
+cIn => and0.IN1
+cIn => and2.IN1
+s <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cOut <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[62].b_i|mux8_1:control
+out <= mux2_1:mux2.out
+d[0] => d[0].IN1
+d[1] => d[1].IN1
+d[2] => d[2].IN1
+d[3] => d[3].IN1
+d[4] => d[4].IN1
+d[5] => d[5].IN1
+d[6] => d[6].IN1
+d[7] => d[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => mux2_1:mux2.s0
+
+
+|alu|ALU_1b:ALU_bits[62].b_i|mux8_1:control|mux4_1:mux0
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[62].b_i|mux8_1:control|mux4_1:mux1
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:ALU_bits[62].b_i|mux8_1:control|mux2_1:mux2
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:b_63
+a => fullAdder:ad.a
+a => and0.IN0
+a => or0.IN0
+a => xor0.IN0
+b => b.IN1
+sel[0] => sel[0].IN1
+sel[1] => mux8_1:control.sel[1]
+sel[2] => mux8_1:control.sel[2]
+r <= mux8_1:control.out
+cOut <= fullAdder:ad.cOut
+cIn => fullAdder:ad.cIn
+
+
+|alu|ALU_1b:b_63|mux2_1:sub0
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:b_63|fullAdder:ad
+a => sum.IN0
+a => and0.IN0
+a => and1.IN0
+b => sum.IN1
+b => and1.IN1
+b => and2.IN0
+cIn => sum.IN2
+cIn => and0.IN1
+cIn => and2.IN1
+s <= sum.DB_MAX_OUTPUT_PORT_TYPE
+cOut <= C.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:b_63|mux8_1:control
+out <= mux2_1:mux2.out
+d[0] => d[0].IN1
+d[1] => d[1].IN1
+d[2] => d[2].IN1
+d[3] => d[3].IN1
+d[4] => d[4].IN1
+d[5] => d[5].IN1
+d[6] => d[6].IN1
+d[7] => d[7].IN1
+sel[0] => sel[0].IN2
+sel[1] => sel[1].IN2
+sel[2] => mux2_1:mux2.s0
+
+
+|alu|ALU_1b:b_63|mux8_1:control|mux4_1:mux0
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:b_63|mux8_1:control|mux4_1:mux1
+s[0] => b1.IN0
+s[0] => d3.IN0
+s[0] => a0.IN0
+s[0] => c2.IN0
+s[1] => c2.IN1
+s[1] => d3.IN1
+s[1] => a0.IN1
+s[1] => b1.IN1
+ins[0] => a0.IN2
+ins[1] => b1.IN2
+ins[2] => c2.IN2
+ins[3] => d3.IN2
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|alu|ALU_1b:b_63|mux8_1:control|mux2_1:mux2
+s0 => b1.IN0
+s0 => a0.IN0
+a => a0.IN1
+b => b1.IN1
+out <= outp.DB_MAX_OUTPUT_PORT_TYPE
+
+

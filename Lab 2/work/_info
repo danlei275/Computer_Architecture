@@ -1,0 +1,197 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/danie/Documents/2021-22 School Year/EE 469/Lab2
+valu
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1643393196
+!i10b 1
+!s100 J0[QXz`@z?Z1T@hVl[k371
+I_n6Q>W6PBAAm6ZGgOAZ2^1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 alu_sv_unit
+S1
+R0
+w1643160526
+8./alu.sv
+F./alu.sv
+L0 2
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z5 !s108 1643393196.000000
+!s107 ./alu.sv|
+!s90 -reportprogress|300|./alu.sv|
+!i113 1
+Z6 tCvgOpt 0
+vALU_1b
+R1
+R2
+!i10b 1
+!s100 ^9[8M_hTCcQm2Eb2e<JNB2
+I1^Gc6K[50oVe2`kc]OcPM1
+R3
+Z7 !s105 ALU_1b_sv_unit
+S1
+R0
+Z8 w1643161664
+Z9 8./ALU_1b.sv
+Z10 F./ALU_1b.sv
+L0 3
+R4
+r1
+!s85 0
+31
+R5
+Z11 !s107 ./ALU_1b.sv|
+Z12 !s90 -reportprogress|300|./ALU_1b.sv|
+!i113 1
+R6
+n@a@l@u_1b
+vALU_1b_testbench
+R1
+R2
+!i10b 1
+!s100 _27R]WdFYVMANdDP7[d:H3
+IgXH:E75JNK;=]J<l>AL?U0
+R3
+R7
+S1
+R0
+R8
+R9
+R10
+L0 33
+R4
+r1
+!s85 0
+31
+R5
+R11
+R12
+!i113 1
+R6
+n@a@l@u_1b_testbench
+valustim
+R1
+R2
+!i10b 1
+!s100 Ad`PVgM5zz9:dk^NGY><>3
+IM1@9eo<jDe7JgTTYoO1Pj1
+R3
+!s105 alustim_sv_unit
+S1
+R0
+w1643393176
+8./alustim.sv
+F./alustim.sv
+L0 20
+R4
+r1
+!s85 0
+31
+R5
+!s107 ./alustim.sv|
+!s90 -reportprogress|300|./alustim.sv|
+!i113 1
+R6
+vfullAdder
+R1
+R2
+!i10b 1
+!s100 ^:mH1VR^J3AI8<2I?8miR0
+IP9`]ISYlz4z28ONA2k9N70
+R3
+!s105 fullAdder_sv_unit
+S1
+R0
+w1643160777
+8./fullAdder.sv
+F./fullAdder.sv
+L0 3
+R4
+r1
+!s85 0
+31
+R5
+!s107 ./fullAdder.sv|
+!s90 -reportprogress|300|./fullAdder.sv|
+!i113 1
+R6
+nfull@adder
+vmux2_1
+R1
+Z13 !s110 1643393195
+!i10b 1
+!s100 cSMJgkhBJ5WNi=5=7ZlHk1
+I2RGIQnmaPLzWd]3:nJN?k1
+R3
+!s105 mux2_1_sv_unit
+S1
+R0
+w1643062707
+8./mux2_1.sv
+F./mux2_1.sv
+L0 3
+R4
+r1
+!s85 0
+31
+Z14 !s108 1643393195.000000
+!s107 ./mux2_1.sv|
+!s90 -reportprogress|300|./mux2_1.sv|
+!i113 1
+R6
+vmux4_1
+R1
+R2
+!i10b 1
+!s100 >6[e32>7K@=Rj2GZRX7:z0
+IS6:Ufc4RRPT69AM8N?kBE1
+R3
+!s105 mux4_1_sv_unit
+S1
+R0
+w1643067918
+8./mux4_1.sv
+F./mux4_1.sv
+L0 3
+R4
+r1
+!s85 0
+31
+R5
+!s107 ./mux4_1.sv|
+!s90 -reportprogress|300|./mux4_1.sv|
+!i113 1
+R6
+vmux8_1
+R1
+R13
+!i10b 1
+!s100 SY`QLOFX4kDKg]OXn?7fR1
+I@bfjCkh=FmG0gAPm;2`G;2
+R3
+!s105 mux8_1_sv_unit
+S1
+R0
+w1643067932
+8./mux8_1.sv
+F./mux8_1.sv
+L0 2
+R4
+r1
+!s85 0
+31
+R14
+!s107 ./mux8_1.sv|
+!s90 -reportprogress|300|./mux8_1.sv|
+!i113 1
+R6

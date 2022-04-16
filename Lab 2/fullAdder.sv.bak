@@ -1,0 +1,15 @@
+
+
+module fullAdder (a, b, cIn, s, cOut);
+
+	input logic a, b, cIn;
+	output logic cOut, s;
+	
+	logic t0, t1, t2;
+	xor #50 sum (s, a, b, cIn);
+	and #50 and0 (t0, a, cIn);
+	and #50 and1 (t1, a, b);
+	and #50 and2 (t2, b, cIn);
+	
+	or #50 C (cOut, t0, t1, t2);
+endmodule	

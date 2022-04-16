@@ -1,0 +1,51 @@
+
+// change the organization
+// This will be the datapath controller
+// inputs are the flags and instruction. no ouputs 
+module singCycle_CPU();
+	
+	logic	[63:0] address;
+	logic	[31:0] instr;
+	logic	clk;
+	logic	write_enable;
+	logic	read_enable;
+	logic	[63:0] write_data;
+	logic	[3:0]	xfer_size;
+	logic	[63:0] read_data;
+	
+	logic	[63:0] A, B;
+	logic	[2:0]	cntrl;
+   logic	[63:0] ALU_result;
+	logic	negative, zero, overflow, carry_out;
+	
+		input logic [4:0] ReadRegister1, ReadRegister2, WriteRegister;
+	input logic [63:0] WriteData;
+	input logic clk, RegWrite; 
+	output logic [63:0] ReadData1, ReadData2;
+	
+	// Not exactly sure how to interact with instructmem. is address the PC? and does it go 1, 2, 3, ...
+	instructmem instr( .address, .instruction(instr), .clk);
+
+	control cntrl (instr, branch, zeroFlag, Reg2Loc, ALUSrc, MemToReg, RegWrite,
+			MemWrite, BrTaken, UncondBr, ALUOp, setFlag)
+	
+	datamem dat (.address(ALU_result), .write_enable(MemWrite), .read_enable(1'b1),
+			.write_data, .clk, .xfer_size, .read_data);
+					 
+	alu operation(.A(TODO), .B(TODO), .cntrl(TODO), .result(ALU_result), negative, zero, overflow, carry_out);
+	
+	regfile register (.ReadData1(instr[9:5]), .ReadData2(TODO), .WriteData(TODO), 
+					 .ReadRegister1(TODO), .ReadRegister2(TODO), .WriteRegister(TODO),
+					 .RegWrite(TODO), .clk);
+					 
+	mux2_1 reg_input_Ab (s0, a, b, out);
+	mux2_1 reg_out_Db (s0, a, b, out);
+	mux2_1 sel_memOr_alu (s0, a, b, out);
+	
+
+endmodule
+
+// ORGANIZATION OF SINGLE CYCLE CPU
+// - module to control the program counter
+// - module to control the datapath
+// - higher level module that connects the two

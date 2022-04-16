@@ -1,0 +1,25 @@
+
+module mux_64x32_1 (data, readReg, readData);
+
+	input logic [31:0][63:0] data;
+	input logic [4:0] readReg;
+	output logic [63:0] readData;
+	
+	logic [63:0][31:0] transpose;
+	
+	genvar i, j;
+	generate
+		for (i = 0; i < 63; i++) begin: eachCol
+			for (j = 0; j < 31; j++) begin: each row
+				assign transpose[i][j] = data[j][i];
+			end
+		end
+	endgenerate
+	
+	genvar i;
+	generate
+		for (i = 0; i < 63; i++) begin: muxSelect
+			mux_32_1 readPort1 (.inputs(transpose[i]), .out(readData[i]), .readReg(readReg));
+		end
+	endgenerate
+endmodule

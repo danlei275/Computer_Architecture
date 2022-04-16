@@ -1,0 +1,370 @@
+# Reading C:/intelFPGA_lite/17.0/modelsim_ase/tcl/vsim/pref.tcl
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:12:11 on Mar 13,2022
+# vlog -reportprogress 300 ./main_memory.svp 
+# 
+# Top level modules:
+# End time: 13:12:12 on Mar 13,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:12:12 on Mar 13,2022
+# vlog -reportprogress 300 ./write_buffer.svp 
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: ./write_buffer.svp(32): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# Top level modules:
+# End time: 13:12:12 on Mar 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 20
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:12:12 on Mar 13,2022
+# vlog -reportprogress 300 ./cache.svp 
+# 
+# Top level modules:
+# End time: 13:12:13 on Mar 13,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:12:13 on Mar 13,2022
+# vlog -reportprogress 300 ./DataMemory.svp 
+# 
+# Top level modules:
+# End time: 13:12:13 on Mar 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 13:12:13 on Mar 13,2022
+# vlog -reportprogress 300 ./lab5.sv 
+# -- Compiling module lab5
+# -- Compiling module lab5_testbench
+# 
+# Top level modules:
+# 	lab5_testbench
+# End time: 13:12:13 on Mar 13,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs=""+acc"" -t 1ps -lib work lab5_testbench 
+# Start time: 13:12:14 on Mar 13,2022
+# Loading sv_std.std
+# Loading work.lab5_testbench
+# Loading work.lab5
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: danie  Hostname: PUMBA  ProcessID: 20532
+#           Attempting to use alternate WLF file "./wlftsak4vw".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftsak4vw
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
+# L1 block size test
+# 1087.00000 ns Read took         107 cycles
+# 1147.00000 ns Read took           5 cycles
+# 1207.00000 ns Read took           5 cycles
+# 1267.00000 ns Read took           5 cycles
+# 2347.00000 ns Read took         107 cycles
+# 2407.00000 ns Read took           5 cycles
+# 2467.00000 ns Read took           5 cycles
+# 2527.00000 ns Read took           5 cycles
+# 3607.00000 ns Read took         107 cycles
+# 3667.00000 ns Read took           5 cycles
+# 3727.00000 ns Read took           5 cycles
+# 3787.00000 ns Read took           5 cycles
+# 4867.00000 ns Read took         107 cycles
+# 4927.00000 ns Read took           5 cycles
+# 4987.00000 ns Read took           5 cycles
+# 5047.00000 ns Read took           5 cycles
+# L1 number of blocks test
+# 6137.00000 ns Read took         107 cycles
+# 7217.00000 ns Read took         107 cycles
+# 8297.00000 ns Read took         107 cycles
+# 9377.00000 ns Read took         107 cycles
+# 10457.00000 ns Read took         107 cycles
+# 11537.00000 ns Read took         107 cycles
+# 12617.00000 ns Read took         107 cycles
+# 13697.00000 ns Read took         107 cycles
+# End of loop1
+# 13757.00000 ns Read took           5 cycles
+# 13817.00000 ns Read took           5 cycles
+# 13877.00000 ns Read took           5 cycles
+# 13937.00000 ns Read took           5 cycles
+# 13997.00000 ns Read took           5 cycles
+# 14057.00000 ns Read took           5 cycles
+# 14117.00000 ns Read took           5 cycles
+# 14177.00000 ns Read took           5 cycles
+# L1 Associativity Test
+# 15267.00000 ns Read took         107 cycles
+# 16347.00000 ns Read took         107 cycles
+# 16407.00000 ns Read took           5 cycles
+# Write Policy
+# 17497.00000 ns Read took         107 cycles
+# 18577.00000 ns Read took         107 cycles
+# 19657.00000 ns Read took         107 cycles
+# 20737.00000 ns Read took         107 cycles
+# 21817.00000 ns Read took         107 cycles
+# 22897.00000 ns Read took         107 cycles
+# 23977.00000 ns Read took         107 cycles
+# 25057.00000 ns Read took         107 cycles
+# 25117.00000 ns Write took           5 cycles
+# 25177.00000 ns Write took           5 cycles
+# 25237.00000 ns Write took           5 cycles
+# 25297.00000 ns Write took           5 cycles
+# 25357.00000 ns Write took           5 cycles
+# 25417.00000 ns Write took           5 cycles
+# 25477.00000 ns Write took           5 cycles
+# 25537.00000 ns Write took           5 cycles
+# L2 number of blocks test
+# 26627.00000 ns Read took         107 cycles
+# 27707.00000 ns Read took         107 cycles
+# 28787.00000 ns Read took         107 cycles
+# 29867.00000 ns Read took         107 cycles
+# 30947.00000 ns Read took         107 cycles
+# 32027.00000 ns Read took         107 cycles
+# 33107.00000 ns Read took         107 cycles
+# 34187.00000 ns Read took         107 cycles
+# 35267.00000 ns Read took         107 cycles
+# 36347.00000 ns Read took         107 cycles
+# 37427.00000 ns Read took         107 cycles
+# 38507.00000 ns Read took         107 cycles
+# 39587.00000 ns Read took         107 cycles
+# 40667.00000 ns Read took         107 cycles
+# 41747.00000 ns Read took         107 cycles
+# 42827.00000 ns Read took         107 cycles
+# 43907.00000 ns Read took         107 cycles
+# 44987.00000 ns Read took         107 cycles
+# 46067.00000 ns Read took         107 cycles
+# 47147.00000 ns Read took         107 cycles
+# 48227.00000 ns Read took         107 cycles
+# 49307.00000 ns Read took         107 cycles
+# 50387.00000 ns Read took         107 cycles
+# 51467.00000 ns Read took         107 cycles
+# 52547.00000 ns Read took         107 cycles
+# 53627.00000 ns Read took         107 cycles
+# 54707.00000 ns Read took         107 cycles
+# 55787.00000 ns Read took         107 cycles
+# 56867.00000 ns Read took         107 cycles
+# 57947.00000 ns Read took         107 cycles
+# 59027.00000 ns Read took         107 cycles
+# 60107.00000 ns Read took         107 cycles
+# End of loop1
+# 60247.00000 ns Read took          13 cycles
+# 60387.00000 ns Read took          13 cycles
+# 60527.00000 ns Read took          13 cycles
+# 60667.00000 ns Read took          13 cycles
+# 60807.00000 ns Read took          13 cycles
+# 60947.00000 ns Read took          13 cycles
+# 61087.00000 ns Read took          13 cycles
+# 61227.00000 ns Read took          13 cycles
+# 61367.00000 ns Read took          13 cycles
+# 61507.00000 ns Read took          13 cycles
+# 61647.00000 ns Read took          13 cycles
+# 61787.00000 ns Read took          13 cycles
+# 61927.00000 ns Read took          13 cycles
+# 62067.00000 ns Read took          13 cycles
+# 62207.00000 ns Read took          13 cycles
+# 62347.00000 ns Read took          13 cycles
+# 62487.00000 ns Read took          13 cycles
+# 62627.00000 ns Read took          13 cycles
+# 62767.00000 ns Read took          13 cycles
+# 62907.00000 ns Read took          13 cycles
+# 63047.00000 ns Read took          13 cycles
+# 63187.00000 ns Read took          13 cycles
+# 63327.00000 ns Read took          13 cycles
+# 63467.00000 ns Read took          13 cycles
+# 63607.00000 ns Read took          13 cycles
+# 63747.00000 ns Read took          13 cycles
+# 63887.00000 ns Read took          13 cycles
+# 64027.00000 ns Read took          13 cycles
+# 64167.00000 ns Read took          13 cycles
+# 64307.00000 ns Read took          13 cycles
+# 64447.00000 ns Read took          13 cycles
+# 64587.00000 ns Read took          13 cycles
+# L2 associativity test
+# 65677.00000 ns Read took         107 cycles
+# 66757.00000 ns Read took         107 cycles
+# 67837.00000 ns Read took         107 cycles
+# 68917.00000 ns Read took         107 cycles
+# 69997.00000 ns Read took         107 cycles
+# 71077.00000 ns Read took         107 cycles
+# 72157.00000 ns Read took         107 cycles
+# 73237.00000 ns Read took         107 cycles
+# 74317.00000 ns Read took         107 cycles
+# 75397.00000 ns Read took         107 cycles
+# 76477.00000 ns Read took         107 cycles
+# 77557.00000 ns Read took         107 cycles
+# 78637.00000 ns Read took         107 cycles
+# 79717.00000 ns Read took         107 cycles
+# 80797.00000 ns Read took         107 cycles
+# 81877.00000 ns Read took         107 cycles
+# 82957.00000 ns Read took         107 cycles
+# 84037.00000 ns Read took         107 cycles
+# 85117.00000 ns Read took         107 cycles
+# 86197.00000 ns Read took         107 cycles
+# 87277.00000 ns Read took         107 cycles
+# 88357.00000 ns Read took         107 cycles
+# 89437.00000 ns Read took         107 cycles
+# 90517.00000 ns Read took         107 cycles
+# 91597.00000 ns Read took         107 cycles
+# 92677.00000 ns Read took         107 cycles
+# 93757.00000 ns Read took         107 cycles
+# 94837.00000 ns Read took         107 cycles
+# 95917.00000 ns Read took         107 cycles
+# 96997.00000 ns Read took         107 cycles
+# 98077.00000 ns Read took         107 cycles
+# 99157.00000 ns Read took         107 cycles
+# 99297.00000 ns Read took          13 cycles
+# 100377.00000 ns Read took         107 cycles
+# 100797.00000 ns Read took          41 cycles
+# 100937.00000 ns Read took          13 cycles
+# L2 write policy
+# L3 associativity test
+# 102037.00000 ns Read took         107 cycles
+# 103117.00000 ns Read took         107 cycles
+# 104197.00000 ns Read took         107 cycles
+# 105277.00000 ns Read took         107 cycles
+# 106357.00000 ns Read took         107 cycles
+# 107437.00000 ns Read took         107 cycles
+# 108517.00000 ns Read took         107 cycles
+# 109597.00000 ns Read took         107 cycles
+# 110677.00000 ns Read took         107 cycles
+# 111757.00000 ns Read took         107 cycles
+# 112837.00000 ns Read took         107 cycles
+# 113917.00000 ns Read took         107 cycles
+# 114997.00000 ns Read took         107 cycles
+# 116077.00000 ns Read took         107 cycles
+# 117157.00000 ns Read took         107 cycles
+# 118237.00000 ns Read took         107 cycles
+# 119317.00000 ns Read took         107 cycles
+# 120397.00000 ns Read took         107 cycles
+# 121477.00000 ns Read took         107 cycles
+# 122557.00000 ns Read took         107 cycles
+# 123637.00000 ns Read took         107 cycles
+# 124717.00000 ns Read took         107 cycles
+# 125797.00000 ns Read took         107 cycles
+# 126877.00000 ns Read took         107 cycles
+# 127957.00000 ns Read took         107 cycles
+# 129037.00000 ns Read took         107 cycles
+# 130117.00000 ns Read took         107 cycles
+# 131197.00000 ns Read took         107 cycles
+# 132277.00000 ns Read took         107 cycles
+# 133357.00000 ns Read took         107 cycles
+# 134437.00000 ns Read took         107 cycles
+# 135517.00000 ns Read took         107 cycles
+# 136597.00000 ns Read took         107 cycles
+# 137677.00000 ns Read took         107 cycles
+# 138757.00000 ns Read took         107 cycles
+# 139837.00000 ns Read took         107 cycles
+# 140917.00000 ns Read took         107 cycles
+# 141997.00000 ns Read took         107 cycles
+# 143077.00000 ns Read took         107 cycles
+# 144157.00000 ns Read took         107 cycles
+# 145237.00000 ns Read took         107 cycles
+# 146317.00000 ns Read took         107 cycles
+# 147397.00000 ns Read took         107 cycles
+# 148477.00000 ns Read took         107 cycles
+# 149557.00000 ns Read took         107 cycles
+# 150637.00000 ns Read took         107 cycles
+# 151717.00000 ns Read took         107 cycles
+# 152797.00000 ns Read took         107 cycles
+# 153877.00000 ns Read took         107 cycles
+# 154957.00000 ns Read took         107 cycles
+# 156037.00000 ns Read took         107 cycles
+# 157117.00000 ns Read took         107 cycles
+# 158197.00000 ns Read took         107 cycles
+# 159277.00000 ns Read took         107 cycles
+# 160357.00000 ns Read took         107 cycles
+# 161437.00000 ns Read took         107 cycles
+# 162517.00000 ns Read took         107 cycles
+# 163597.00000 ns Read took         107 cycles
+# 164677.00000 ns Read took         107 cycles
+# 165757.00000 ns Read took         107 cycles
+# 166837.00000 ns Read took         107 cycles
+# 167917.00000 ns Read took         107 cycles
+# 168997.00000 ns Read took         107 cycles
+# 170077.00000 ns Read took         107 cycles
+# 171157.00000 ns Read took         107 cycles
+# 172237.00000 ns Read took         107 cycles
+# 173317.00000 ns Read took         107 cycles
+# 174397.00000 ns Read took         107 cycles
+# 175477.00000 ns Read took         107 cycles
+# 176557.00000 ns Read took         107 cycles
+# 177637.00000 ns Read took         107 cycles
+# 178717.00000 ns Read took         107 cycles
+# 179797.00000 ns Read took         107 cycles
+# 180877.00000 ns Read took         107 cycles
+# 181957.00000 ns Read took         107 cycles
+# 183037.00000 ns Read took         107 cycles
+# 184117.00000 ns Read took         107 cycles
+# 185197.00000 ns Read took         107 cycles
+# 186277.00000 ns Read took         107 cycles
+# 187357.00000 ns Read took         107 cycles
+# 188437.00000 ns Read took         107 cycles
+# 189517.00000 ns Read took         107 cycles
+# 190597.00000 ns Read took         107 cycles
+# 191677.00000 ns Read took         107 cycles
+# 192757.00000 ns Read took         107 cycles
+# 193837.00000 ns Read took         107 cycles
+# 194917.00000 ns Read took         107 cycles
+# 195997.00000 ns Read took         107 cycles
+# 197077.00000 ns Read took         107 cycles
+# 198157.00000 ns Read took         107 cycles
+# 199237.00000 ns Read took         107 cycles
+# 200317.00000 ns Read took         107 cycles
+# 201397.00000 ns Read took         107 cycles
+# 202477.00000 ns Read took         107 cycles
+# 203557.00000 ns Read took         107 cycles
+# 204637.00000 ns Read took         107 cycles
+# 205717.00000 ns Read took         107 cycles
+# 206797.00000 ns Read took         107 cycles
+# 207877.00000 ns Read took         107 cycles
+# 208957.00000 ns Read took         107 cycles
+# 210037.00000 ns Read took         107 cycles
+# 211117.00000 ns Read took         107 cycles
+# 212197.00000 ns Read took         107 cycles
+# 213277.00000 ns Read took         107 cycles
+# 214357.00000 ns Read took         107 cycles
+# 215437.00000 ns Read took         107 cycles
+# 216517.00000 ns Read took         107 cycles
+# 217597.00000 ns Read took         107 cycles
+# 218677.00000 ns Read took         107 cycles
+# 219757.00000 ns Read took         107 cycles
+# 220837.00000 ns Read took         107 cycles
+# 221917.00000 ns Read took         107 cycles
+# 222997.00000 ns Read took         107 cycles
+# 224077.00000 ns Read took         107 cycles
+# 225157.00000 ns Read took         107 cycles
+# 226237.00000 ns Read took         107 cycles
+# 227317.00000 ns Read took         107 cycles
+# 228397.00000 ns Read took         107 cycles
+# 229477.00000 ns Read took         107 cycles
+# 230557.00000 ns Read took         107 cycles
+# 231637.00000 ns Read took         107 cycles
+# 232717.00000 ns Read took         107 cycles
+# 233797.00000 ns Read took         107 cycles
+# 234877.00000 ns Read took         107 cycles
+# 235957.00000 ns Read took         107 cycles
+# 237037.00000 ns Read took         107 cycles
+# 238117.00000 ns Read took         107 cycles
+# 239197.00000 ns Read took         107 cycles
+# 239617.00000 ns Read took          41 cycles read 0
+# 240037.00000 ns Read took          41 cycles read 32
+# 241117.00000 ns Read took         107 cycles new dat
+# 242197.00000 ns Read took         107 cycles read 64
+# ** Note: $stop    : ./lab5.sv(492)
+#    Time: 242197 ns  Iteration: 0  Instance: /lab5_testbench
+# Break in Module lab5_testbench at ./lab5.sv line 492

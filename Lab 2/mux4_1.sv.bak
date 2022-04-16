@@ -1,0 +1,14 @@
+
+
+module mux4_1 (i3, i2, i1, i0, s1, s0, out);
+
+	input logic i3, i2, i1, i0, s1, s0;
+	output logic out;
+	
+	logic temp0, temp1;
+	mux2_1 m0 (.s0, .a(i0), .b(i1), .out(temp0));
+	mux2_1 m1 (.s0, .a(i2), .b(i3), .out(temp1));
+	
+	mux2_1 m2 (.s0(s1), .a(temp0), .b(temp1), .out)
+	
+endmodule

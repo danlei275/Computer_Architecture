@@ -1,0 +1,380 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/danie/Documents/2021-22 School Year/EE 469/Lab1
+vD_FF
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1642550835
+!i10b 1
+!s100 ViS5dlf@DIUMHf?dSCnLk2
+I2IJ`DK8l[k7@^dVDK9;;b2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 !s105 register_sv_unit
+S1
+R0
+Z5 w1642364649
+Z6 8./register.sv
+Z7 F./register.sv
+Z8 L0 30
+Z9 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z10 !s108 1642550835.000000
+Z11 !s107 ./register.sv|
+Z12 !s90 -reportprogress|300|./register.sv|
+!i113 1
+Z13 tCvgOpt 0
+n@d_@f@f
+vdecoder2_4
+R1
+R2
+!i10b 1
+!s100 gcUo2f6URjC=_:8^kK4^E3
+IDQU<j]j9R0g9[>h>cRW1]0
+R3
+Z14 !s105 decoder2_4_sv_unit
+S1
+R0
+Z15 w1642364159
+Z16 8./decoder2_4.sv
+Z17 F./decoder2_4.sv
+L0 8
+R9
+r1
+!s85 0
+31
+R10
+Z18 !s107 ./decoder2_4.sv|
+Z19 !s90 -reportprogress|300|./decoder2_4.sv|
+!i113 1
+R13
+vdecoder2_4_testbench
+R1
+R2
+!i10b 1
+!s100 0LD`NJ0@_nEZ0nmaeCOo`1
+I:6[S3B:E[8_lWgKZhz>AI2
+R3
+R14
+S1
+R0
+R15
+R16
+R17
+L0 25
+R9
+r1
+!s85 0
+31
+R10
+R18
+R19
+!i113 1
+R13
+vdecoder3_8
+R1
+R2
+!i10b 1
+!s100 KbB_Qa_e3?K0g0]lCCR>V1
+I3ne0jZ7Sz<5[G;8zYcmPg0
+R3
+Z20 !s105 decoder3_8_sv_unit
+S1
+R0
+Z21 w1642364066
+Z22 8./decoder3_8.sv
+Z23 F./decoder3_8.sv
+L0 8
+R9
+r1
+!s85 0
+31
+R10
+Z24 !s107 ./decoder3_8.sv|
+Z25 !s90 -reportprogress|300|./decoder3_8.sv|
+!i113 1
+R13
+vdecoder3_8_testbench
+R1
+R2
+!i10b 1
+!s100 N>D??PA^A:?N`^T3fl@bI2
+I7FVI`AgAQHLPAM262J`HQ0
+R3
+R20
+S1
+R0
+R21
+R22
+R23
+R8
+R9
+r1
+!s85 0
+31
+R10
+R24
+R25
+!i113 1
+R13
+vmux2_1
+R1
+Z26 !s110 1642203445
+!i10b 1
+!s100 db@k@fnga:kY6M:UDM?iV1
+IJ>QNS`gdkcliNLo;gQk_83
+R3
+Z27 !s105 mux2_1_sv_unit
+S1
+R0
+Z28 w1641777732
+Z29 8./mux2_1.sv
+Z30 F./mux2_1.sv
+L0 1
+R9
+r1
+!s85 0
+31
+Z31 !s108 1642203444.000000
+Z32 !s107 ./mux2_1.sv|
+Z33 !s90 -reportprogress|300|./mux2_1.sv|
+!i113 1
+R13
+vMux2_1
+R1
+R2
+!i10b 1
+!s100 4<o:IlhkREWDHAWi3^Kcl1
+I470nP8m806JbDUe?hdTSb0
+R3
+Z34 !s105 mux_32_1_sv_unit
+S1
+R0
+Z35 w1642364383
+Z36 8./mux_32_1.sv
+Z37 F./mux_32_1.sv
+Z38 L0 40
+R9
+r1
+!s85 0
+31
+R10
+Z39 !s107 ./mux_32_1.sv|
+Z40 !s90 -reportprogress|300|./mux_32_1.sv|
+!i113 1
+R13
+n@mux2_1
+vmux2_1_testbench
+R1
+R26
+!i10b 1
+!s100 AaPWH7@z6J3I9g7Ce@1ED1
+I;eMHfQ<@c56k5bMBE8Am71
+R3
+R27
+S1
+R0
+R28
+R29
+R30
+L0 8
+R9
+r1
+!s85 0
+31
+R31
+R32
+R33
+!i113 1
+R13
+vmux4_1
+R1
+R2
+!i10b 1
+!s100 <_^j2d<iAB]dzJB7Y8Uzb2
+Im?e6P];WRzXYT2EWKV1e23
+R3
+R34
+S1
+R0
+R35
+R36
+R37
+L0 62
+R9
+r1
+!s85 0
+31
+R10
+R39
+R40
+!i113 1
+R13
+vmux_32_1
+R1
+R2
+!i10b 1
+!s100 mNH2VgP1O=bYd:z]JzCn_2
+ID4h?afhzi_?;X]Uz1IbV]0
+R3
+R34
+S1
+R0
+R35
+R36
+R37
+Z41 L0 10
+R9
+r1
+!s85 0
+31
+R10
+R39
+R40
+!i113 1
+R13
+vmux_32_1_testbench
+R1
+R2
+!i10b 1
+!s100 d?0bk:K7W=3kTcKdkgPhe0
+IZPZ1NS@6Zo:nYWGi4F0::1
+R3
+R34
+S1
+R0
+R35
+R36
+R37
+L0 83
+R9
+r1
+!s85 0
+31
+R10
+R39
+R40
+!i113 1
+R13
+vmux_64x32_1
+R1
+R2
+!i10b 1
+!s100 BkcdQ_[S9P8iJQ`TX7f3;1
+Ij97NR60JXK[h[mB]9e]h12
+R3
+Z42 !s105 mux_64x32_1_sv_unit
+S1
+R0
+Z43 w1642205018
+Z44 8./mux_64x32_1.sv
+Z45 F./mux_64x32_1.sv
+L0 13
+R9
+r1
+!s85 0
+31
+R10
+Z46 !s107 ./mux_64x32_1.sv|
+Z47 !s90 -reportprogress|300|./mux_64x32_1.sv|
+!i113 1
+R13
+vmux_64x32_1_testbench
+R1
+R2
+!i10b 1
+!s100 RMGWm54>_abCI7NQ<nh>81
+IVDQBh5GT9Wdbm>mNSm`5f1
+R3
+R42
+S1
+R0
+R43
+R44
+R45
+R38
+R9
+r1
+!s85 0
+31
+R10
+R46
+R47
+!i113 1
+R13
+vregfile
+R1
+R2
+!i10b 1
+!s100 8GVOzb8I27LA`dzdcYW^b2
+IaoRDHQ^IfoQFYUXD?BnHe0
+R3
+!s105 regfile_sv_unit
+S1
+R0
+w1642204255
+8./regfile.sv
+F./regfile.sv
+L0 12
+R9
+r1
+!s85 0
+31
+R10
+!s107 ./regfile.sv|
+!s90 -reportprogress|300|./regfile.sv|
+!i113 1
+R13
+vregister
+R1
+R2
+!i10b 1
+!s100 UNGCJ[OYQAMVW6Xf3LHV[2
+IiG<oYK_?C]R@]6Wda61?E2
+R3
+R4
+S1
+R0
+R5
+R6
+R7
+R41
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 1
+R13
+vregstim
+R1
+R2
+!i10b 1
+!s100 0RA_m<eN3kz_Tje0a2=[U1
+I?boQoEcY6j2Td[e>iQc8;1
+R3
+!s105 regstim_sv_unit
+S1
+R0
+w1642204749
+8./regstim.sv
+F./regstim.sv
+L0 4
+R9
+r1
+!s85 0
+31
+R10
+!s107 ./regstim.sv|
+!s90 -reportprogress|300|./regstim.sv|
+!i113 1
+R13

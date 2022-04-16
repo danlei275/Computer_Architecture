@@ -1,0 +1,49 @@
+onerror {resume}
+quietly WaveActivateNextPane {} 0
+add wave -noupdate /dataPath_testbench/dut/instruction
+add wave -noupdate /dataPath_testbench/dut/ALUOp
+add wave -noupdate /dataPath_testbench/dut/Reg2Loc
+add wave -noupdate /dataPath_testbench/dut/RegWrite
+add wave -noupdate /dataPath_testbench/dut/ALUSrc
+add wave -noupdate /dataPath_testbench/dut/MemWrite
+add wave -noupdate /dataPath_testbench/dut/MemToReg
+add wave -noupdate /dataPath_testbench/dut/immSize
+add wave -noupdate /dataPath_testbench/dut/shiftSel
+add wave -noupdate /dataPath_testbench/dut/clk
+add wave -noupdate /dataPath_testbench/dut/zero
+add wave -noupdate /dataPath_testbench/dut/overflow
+add wave -noupdate /dataPath_testbench/dut/carry_out
+add wave -noupdate -radix decimal /dataPath_testbench/dut/ALU_result
+add wave -noupdate /dataPath_testbench/dut/mem_out
+add wave -noupdate /dataPath_testbench/dut/Ab_in
+add wave -noupdate /dataPath_testbench/dut/negative
+add wave -noupdate -radix decimal /dataPath_testbench/dut/Da_out
+add wave -noupdate -radix decimal -childformat {{{/dataPath_testbench/dut/Db_out[63]} -radix decimal} {{/dataPath_testbench/dut/Db_out[62]} -radix decimal} {{/dataPath_testbench/dut/Db_out[61]} -radix decimal} {{/dataPath_testbench/dut/Db_out[60]} -radix decimal} {{/dataPath_testbench/dut/Db_out[59]} -radix decimal} {{/dataPath_testbench/dut/Db_out[58]} -radix decimal} {{/dataPath_testbench/dut/Db_out[57]} -radix decimal} {{/dataPath_testbench/dut/Db_out[56]} -radix decimal} {{/dataPath_testbench/dut/Db_out[55]} -radix decimal} {{/dataPath_testbench/dut/Db_out[54]} -radix decimal} {{/dataPath_testbench/dut/Db_out[53]} -radix decimal} {{/dataPath_testbench/dut/Db_out[52]} -radix decimal} {{/dataPath_testbench/dut/Db_out[51]} -radix decimal} {{/dataPath_testbench/dut/Db_out[50]} -radix decimal} {{/dataPath_testbench/dut/Db_out[49]} -radix decimal} {{/dataPath_testbench/dut/Db_out[48]} -radix decimal} {{/dataPath_testbench/dut/Db_out[47]} -radix decimal} {{/dataPath_testbench/dut/Db_out[46]} -radix decimal} {{/dataPath_testbench/dut/Db_out[45]} -radix decimal} {{/dataPath_testbench/dut/Db_out[44]} -radix decimal} {{/dataPath_testbench/dut/Db_out[43]} -radix decimal} {{/dataPath_testbench/dut/Db_out[42]} -radix decimal} {{/dataPath_testbench/dut/Db_out[41]} -radix decimal} {{/dataPath_testbench/dut/Db_out[40]} -radix decimal} {{/dataPath_testbench/dut/Db_out[39]} -radix decimal} {{/dataPath_testbench/dut/Db_out[38]} -radix decimal} {{/dataPath_testbench/dut/Db_out[37]} -radix decimal} {{/dataPath_testbench/dut/Db_out[36]} -radix decimal} {{/dataPath_testbench/dut/Db_out[35]} -radix decimal} {{/dataPath_testbench/dut/Db_out[34]} -radix decimal} {{/dataPath_testbench/dut/Db_out[33]} -radix decimal} {{/dataPath_testbench/dut/Db_out[32]} -radix decimal} {{/dataPath_testbench/dut/Db_out[31]} -radix decimal} {{/dataPath_testbench/dut/Db_out[30]} -radix decimal} {{/dataPath_testbench/dut/Db_out[29]} -radix decimal} {{/dataPath_testbench/dut/Db_out[28]} -radix decimal} {{/dataPath_testbench/dut/Db_out[27]} -radix decimal} {{/dataPath_testbench/dut/Db_out[26]} -radix decimal} {{/dataPath_testbench/dut/Db_out[25]} -radix decimal} {{/dataPath_testbench/dut/Db_out[24]} -radix decimal} {{/dataPath_testbench/dut/Db_out[23]} -radix decimal} {{/dataPath_testbench/dut/Db_out[22]} -radix decimal} {{/dataPath_testbench/dut/Db_out[21]} -radix decimal} {{/dataPath_testbench/dut/Db_out[20]} -radix decimal} {{/dataPath_testbench/dut/Db_out[19]} -radix decimal} {{/dataPath_testbench/dut/Db_out[18]} -radix decimal} {{/dataPath_testbench/dut/Db_out[17]} -radix decimal} {{/dataPath_testbench/dut/Db_out[16]} -radix decimal} {{/dataPath_testbench/dut/Db_out[15]} -radix decimal} {{/dataPath_testbench/dut/Db_out[14]} -radix decimal} {{/dataPath_testbench/dut/Db_out[13]} -radix decimal} {{/dataPath_testbench/dut/Db_out[12]} -radix decimal} {{/dataPath_testbench/dut/Db_out[11]} -radix decimal} {{/dataPath_testbench/dut/Db_out[10]} -radix decimal} {{/dataPath_testbench/dut/Db_out[9]} -radix decimal} {{/dataPath_testbench/dut/Db_out[8]} -radix decimal} {{/dataPath_testbench/dut/Db_out[7]} -radix decimal} {{/dataPath_testbench/dut/Db_out[6]} -radix decimal} {{/dataPath_testbench/dut/Db_out[5]} -radix decimal} {{/dataPath_testbench/dut/Db_out[4]} -radix decimal} {{/dataPath_testbench/dut/Db_out[3]} -radix decimal} {{/dataPath_testbench/dut/Db_out[2]} -radix decimal} {{/dataPath_testbench/dut/Db_out[1]} -radix decimal} {{/dataPath_testbench/dut/Db_out[0]} -radix decimal}} -subitemconfig {{/dataPath_testbench/dut/Db_out[63]} {-height 15 -radix decimal} {/dataPath_testbench/dut/Db_out[62]} {-height 15 -radix decimal} {/dataPath_testbench/dut/Db_out[61]} {-height 15 -radix decimal} {/dataPath_testbench/dut/Db_out[60]} {-height 15 -radix decimal} {/dataPath_testbench/dut/Db_out[59]} {-height 15 -radix decimal} {/dataPath_testbench/dut/Db_out[58]} {-height 15 -radix decimal} {/dataPath_testbench/dut/Db_out[57]} {-height 15 -radix decimal} {/dataPath_testbench/dut/Db_out[56]} {-height 15 -radix decimal} {/dataPath_testbench/dut/Db_out[55]} {-height 15 -radix decimal} {/dataPath_testbench/dut/Db_out[54]} {-height 15 -radix decimal} {/dataPath_testbench/dut/Db_out[53]} {-height 15 -radix decimal} {/dataPath_testbench/dut/Db_out[52]} {-height 15 -radix decimal} {/dataPath_testbench/dut/Db_out[51]} {-height 15 -radix decimal} {/dataPath_testbench/dut/Db_out[50]} {-height 15 -radix decimal} {/dataPath_testbench/dut/Db_out[49]} {-height 15 -radix decimal} {/dataPath_testbench/dut/Db_out[48]} {-height 15 -radix decimal} {/dataPath_testbench/dut/Db_out[47]} {-height 15 -radix decimal} {/dataPath_testbench/dut/Db_out[46]} {-height 15 -radix decimal} {/dataPath_testbench/dut/Db_out[45]} {-height 15 -radix decimal} {/dataPath_testbench/dut/Db_out[44]} {-height 15 -radix decimal} {/dataPath_testbench/dut/Db_out[43]} {-height 15 -radix decimal} {/dataPath_testbench/dut/Db_out[42]} {-height 15 -radix decimal} {/dataPath_testbench/dut/Db_out[41]} {-height 15 -radix decimal} {/dataPath_testbench/dut/Db_out[40]} {-height 15 -radix decimal} {/dataPath_testbench/dut/Db_out[39]} {-height 15 -radix decimal} {/dataPath_testbench/dut/Db_out[38]} {-height 15 -radix decimal} {/dataPath_testbench/dut/Db_out[37]} {-height 15 -radix decimal} {/dataPath_testbench/dut/Db_out[36]} {-height 15 -radix decimal} {/dataPath_testbench/dut/Db_out[35]} {-height 15 -radix decimal} {/dataPath_testbench/dut/Db_out[34]} {-height 15 -radix decimal} {/dataPath_testbench/dut/Db_out[33]} {-height 15 -radix decimal} {/dataPath_testbench/dut/Db_out[32]} {-height 15 -radix decimal} {/dataPath_testbench/dut/Db_out[31]} {-height 15 -radix decimal} {/dataPath_testbench/dut/Db_out[30]} {-height 15 -radix decimal} {/dataPath_testbench/dut/Db_out[29]} {-height 15 -radix decimal} {/dataPath_testbench/dut/Db_out[28]} {-height 15 -radix decimal} {/dataPath_testbench/dut/Db_out[27]} {-height 15 -radix decimal} {/dataPath_testbench/dut/Db_out[26]} {-height 15 -radix decimal} {/dataPath_testbench/dut/Db_out[25]} {-height 15 -radix decimal} {/dataPath_testbench/dut/Db_out[24]} {-height 15 -radix decimal} {/dataPath_testbench/dut/Db_out[23]} {-height 15 -radix decimal} {/dataPath_testbench/dut/Db_out[22]} {-height 15 -radix decimal} {/dataPath_testbench/dut/Db_out[21]} {-height 15 -radix decimal} {/dataPath_testbench/dut/Db_out[20]} {-height 15 -radix decimal} {/dataPath_testbench/dut/Db_out[19]} {-height 15 -radix decimal} {/dataPath_testbench/dut/Db_out[18]} {-height 15 -radix decimal} {/dataPath_testbench/dut/Db_out[17]} {-height 15 -radix decimal} {/dataPath_testbench/dut/Db_out[16]} {-height 15 -radix decimal} {/dataPath_testbench/dut/Db_out[15]} {-height 15 -radix decimal} {/dataPath_testbench/dut/Db_out[14]} {-height 15 -radix decimal} {/dataPath_testbench/dut/Db_out[13]} {-height 15 -radix decimal} {/dataPath_testbench/dut/Db_out[12]} {-height 15 -radix decimal} {/dataPath_testbench/dut/Db_out[11]} {-height 15 -radix decimal} {/dataPath_testbench/dut/Db_out[10]} {-height 15 -radix decimal} {/dataPath_testbench/dut/Db_out[9]} {-height 15 -radix decimal} {/dataPath_testbench/dut/Db_out[8]} {-height 15 -radix decimal} {/dataPath_testbench/dut/Db_out[7]} {-height 15 -radix decimal} {/dataPath_testbench/dut/Db_out[6]} {-height 15 -radix decimal} {/dataPath_testbench/dut/Db_out[5]} {-height 15 -radix decimal} {/dataPath_testbench/dut/Db_out[4]} {-height 15 -radix decimal} {/dataPath_testbench/dut/Db_out[3]} {-height 15 -radix decimal} {/dataPath_testbench/dut/Db_out[2]} {-height 15 -radix decimal} {/dataPath_testbench/dut/Db_out[1]} {-height 15 -radix decimal} {/dataPath_testbench/dut/Db_out[0]} {-height 15 -radix decimal}} /dataPath_testbench/dut/Db_out
+add wave -noupdate -radix decimal /dataPath_testbench/dut/mem_ALU_out
+add wave -noupdate -radix decimal /dataPath_testbench/dut/imm12_ZE
+add wave -noupdate -radix decimal /dataPath_testbench/dut/imm9_SE
+add wave -noupdate -radix decimal /dataPath_testbench/dut/ALU_inpt_B
+add wave -noupdate /dataPath_testbench/dut/immediate_val
+add wave -noupdate /dataPath_testbench/dut/shift_out
+add wave -noupdate -radix decimal /dataPath_testbench/dut/reg_dataWrite
+add wave -noupdate -radix decimal /dataPath_testbench/dut/regist/ReadData1
+add wave -noupdate -radix decimal /dataPath_testbench/dut/regist/ReadData2
+add wave -noupdate -radix decimal /dataPath_testbench/dut/regist/registers
+TreeUpdate [SetDefaultTree]
+WaveRestoreCursors {{Cursor 1} {34358 ps} 0}
+quietly wave cursor active 1
+configure wave -namecolwidth 150
+configure wave -valuecolwidth 100
+configure wave -justifyvalue left
+configure wave -signalnamewidth 1
+configure wave -snapdistance 10
+configure wave -datasetprefix 0
+configure wave -rowmargin 4
+configure wave -childrowmargin 2
+configure wave -gridoffset 0
+configure wave -gridperiod 1
+configure wave -griddelta 40
+configure wave -timeline 0
+configure wave -timelineunits ps
+update
+WaveRestoreZoom {29208 ps} {37208 ps}

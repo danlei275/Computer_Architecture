@@ -1,0 +1,20 @@
+
+
+module ALU_1b (a, b, s1, s0, r, cOut, cIn);
+
+	input logic a, b, s1, s0;
+	output logic r, cOut;
+	 
+	 logic t00, t10, t11, notB, bControl;
+	 
+	 not #50 invb (notB, b);
+	 
+	 mux2_1 sub0 (.s0, .a(b), .b(notB), .out(bControl))
+	 fullAdder ad (.a, .b(bControl), .cIn, .s(t00), .cOut)
+	 
+	 and #50 and0 (t10, a, b);
+	 or #50 or0 (t11, a, b);
+	 
+	 mux4_1 control (.i3(t11), .i2(t10), .i1(t00), .i0(t00), .s1, .s0, .out(r));
+	 
+endmodule
